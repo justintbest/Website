@@ -364,11 +364,12 @@
     background: oklch(0.10 0.006 265 / 0.96);
     backdrop-filter: blur(8px);
     display: none;
-    align-items: center; justify-content: center;
+    overflow-y: auto;
     padding: clamp(20px, 5vw, 72px);
+    padding-top: clamp(60px, 8vw, 100px);
   }
-  .lb.open { display: flex; }
-  .lb-inner { width: min(1100px, 100%); }
+  .lb.open { display: block; }
+  .lb-inner { width: min(1100px, 100%); margin: 0 auto; padding-bottom: 80px; }
   .lb-stage {
     position: relative;
     aspect-ratio: 16 / 10;
@@ -402,21 +403,12 @@
     padding: 10px 16px; cursor: pointer; transition: all 0.2s;
   }
   .lb-close:hover { color: var(--fg); border-color: var(--accent); }
-  .lb-strip {
-    display: flex; gap: 8px; margin-top: 14px; overflow-x: auto;
-    scrollbar-width: thin; scrollbar-color: var(--line) transparent;
-    padding-bottom: 4px;
+  .lb-series { margin-top: 8px; display: flex; flex-direction: column; gap: 8px; }
+  .lb-series-img {
+    width: 100%; aspect-ratio: 16 / 10;
+    background: var(--bg-2); border: 1px solid var(--line); overflow: hidden;
   }
-  .lb-strip:empty { display: none; }
-  .lb-strip-thumb {
-    flex: 0 0 auto; width: 110px; aspect-ratio: 16 / 10;
-    border: 1px solid var(--line); cursor: pointer; overflow: hidden;
-    transition: border-color 0.2s; background: var(--bg-2);
-  }
-  .lb-strip-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .lb-strip-thumb.active { border-color: var(--accent); }
-  .lb-strip-thumb:hover { border-color: var(--fg-2); }
-  .lb-strip-thumb.active:hover { border-color: var(--accent); }
+  .lb-series-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
   @media (max-width: 880px) {
     .grid { grid-template-columns: repeat(2, 1fr); }
@@ -504,7 +496,7 @@
         <button class="lb-btn" id="lbNext">→</button>
       </div>
     </div>
-    <div class="lb-strip" id="lbStrip"></div>
+    <div class="lb-series" id="lbSeries"></div>
   </div>
 </div>
 
@@ -550,7 +542,7 @@
   const lb = document.getElementById('lb');
   let cur = 0;
   function openLb(i) {
-    cur = i; fillLb(); lb.classList.add('open'); document.body.style.overflow = 'hidden';
+    cur = i; fillLb(); lb.classList.add('open'); lb.scrollTop = 0; document.body.style.overflow = 'hidden';
   }
   function fillLb() {
     const p = visible[cur];
@@ -577,20 +569,15 @@
       ph.style.display = '';
       ph.textContent = p.med + ' — drop image';
     }
-    // Rebuild series filmstrip (sub-images attached to this card only)
-    const strip = document.getElementById('lbStrip');
-    strip.innerHTML = '';
+    // Rebuild vertical series stack
+    const series = document.getElementById('lbSeries');
+    series.innerHTML = '';
     if (p.series && p.series.length) {
-      p.series.forEach((s, si) => {
-        const thumb = document.createElement('div');
-        thumb.className = 'lb-strip-thumb';
-        if (s.thumb) thumb.innerHTML = `<img src="${s.thumb}" alt="" loading="lazy">`;
-        thumb.addEventListener('click', () => {
-          const lbImg = document.getElementById('lbImg');
-          if (lbImg) { lbImg.src = s.full || s.thumb; lbImg.style.display = ''; }
-          strip.querySelectorAll('.lb-strip-thumb').forEach((el, j) => el.classList.toggle('active', j === si));
-        });
-        strip.appendChild(thumb);
+      p.series.forEach(s => {
+        const wrap = document.createElement('div');
+        wrap.className = 'lb-series-img';
+        if (s.full || s.thumb) wrap.innerHTML = `<img src="${s.full || s.thumb}" alt="" loading="lazy">`;
+        series.appendChild(wrap);
       });
     }
   }
