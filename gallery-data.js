@@ -33,7 +33,7 @@ window.HERO_SLIDES = [
   "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png",
   "images/project-mesozoic/mesozoic18CD4 LR.jpg",
   "images/project-archives/Archives Final LR.jpg",
-  { src: "images/project-temple/project-temple.jpg", imgPos: "center -100px" },
+  { src: "images/project-temple/project-temple.jpg", imgPos: "center 100px" },
 ];
 
 
