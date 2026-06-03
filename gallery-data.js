@@ -50,9 +50,12 @@ window.HERO_SLIDES = [
 window.GALLERY = [
   /* ---- Placeholder cards below. Replace these with your own images,
           or delete the ones you don't need. ---- */
-  { title: "Formula 1 Wind Tunnel", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/Formula 1.png", full: "images/Formula 1.png" },
-  { title: "Formula 2 Wind Tunnel", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/Formula 2.png", full: "images/Formula 2.png" },
-  { title: "Formula 3 Wind Tunnel", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/Formula 3.png", full: "images/Formula 3.png" },
+  { title: "Formula 1 Wind Tunnel", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/Formula 1.png", full: "images/Formula 1.png",
+    series: [
+      { thumb: "images/Formula 2.png", full: "images/Formula 2.png" },
+      { thumb: "images/Formula 3.png", full: "images/Formula 3.png" },
+    ]
+  },
   { title: "PS Inaugura", project: "Futurist", category: "Keyframe", cat: "key", year: "2026", thumb: "images/Futurist_PS INAUGURA.png", full: "images/Futurist_PS INAUGURA.png" },
   { title: "Drowned Cathedral", project: "Project Tidewall", category: "Environment", cat: "env", year: "2025" },
   { title: "Hauler Class-VII",  project: "Orbital",          category: "Vehicle",     cat: "veh", year: "2025" },

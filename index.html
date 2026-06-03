@@ -513,7 +513,8 @@
   // Build the render model from the editable content file (gallery-data.js).
   const PIECES = (window.GALLERY || []).map(g => ({
     t: g.title, proj: g.project, med: g.category, year: g.year, cat: g.cat,
-    img: g.thumb || g.full || '', full: g.full || g.thumb || ''
+    img: g.thumb || g.full || '', full: g.full || g.thumb || '',
+    series: g.series || []
   }));
 
   const grid = document.getElementById('grid');
@@ -576,23 +577,21 @@
       ph.style.display = '';
       ph.textContent = p.med + ' — drop image';
     }
-    // Rebuild project filmstrip
+    // Rebuild series filmstrip (sub-images attached to this card only)
     const strip = document.getElementById('lbStrip');
-    const siblings = visible.filter(x => x.proj === p.proj);
-    if (siblings.length > 1) {
-      strip.innerHTML = '';
-      siblings.forEach(s => {
-        const idx = visible.indexOf(s);
+    strip.innerHTML = '';
+    if (p.series && p.series.length) {
+      p.series.forEach((s, si) => {
         const thumb = document.createElement('div');
-        thumb.className = 'lb-strip-thumb' + (idx === cur ? ' active' : '');
-        if (s.img) {
-          thumb.innerHTML = `<img src="${s.img}" alt="${s.t}" loading="lazy">`;
-        }
-        thumb.addEventListener('click', () => { cur = idx; fillLb(); });
+        thumb.className = 'lb-strip-thumb';
+        if (s.thumb) thumb.innerHTML = `<img src="${s.thumb}" alt="" loading="lazy">`;
+        thumb.addEventListener('click', () => {
+          const lbImg = document.getElementById('lbImg');
+          if (lbImg) { lbImg.src = s.full || s.thumb; lbImg.style.display = ''; }
+          strip.querySelectorAll('.lb-strip-thumb').forEach((el, j) => el.classList.toggle('active', j === si));
+        });
         strip.appendChild(thumb);
       });
-    } else {
-      strip.innerHTML = '';
     }
   }
   function closeLb() { lb.classList.remove('open'); document.body.style.overflow = ''; }
