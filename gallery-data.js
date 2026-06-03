@@ -30,7 +30,7 @@
 ---------------------------------------------------------------------------- */
 window.HERO_SLIDES = [
   "images/Futurist_PS INAUGURA.png",
-  "images/F1.png",
+  "images/Formula 1.png",
   "Hero slot 3 — replace with an image path",
 ];
 
@@ -50,7 +50,7 @@ window.HERO_SLIDES = [
 window.GALLERY = [
   /* ---- Placeholder cards below. Replace these with your own images,
           or delete the ones you don't need. ---- */
-  { title: "Formula 1 Wind Tunnel", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/F1.png", full: "images/F1.png" },
+  { title: "Formula 1 Wind Tunnel", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/Formula 1.png", full: "images/Formula 1.png" },
   { title: "PS Inaugura", project: "Futurist", category: "Keyframe", cat: "key", year: "2026", thumb: "images/Futurist_PS INAUGURA.png", full: "images/Futurist_PS INAUGURA.png" },
   { title: "Drowned Cathedral", project: "Project Tidewall", category: "Environment", cat: "env", year: "2025" },
   { title: "Hauler Class-VII",  project: "Orbital",          category: "Vehicle",     cat: "veh", year: "2025" },
