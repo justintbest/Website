@@ -372,14 +372,10 @@
   .lb-inner { width: min(1100px, 100%); margin: 0 auto; padding-bottom: 80px; }
   .lb-stage {
     position: relative;
-    aspect-ratio: 16 / 10;
-    background-image:
-      repeating-linear-gradient(135deg,
-        oklch(0.24 0.008 265) 0 2px,
-        transparent 2px 13px);
     background-color: var(--bg-2);
     border: 1px solid var(--line);
     display: flex; align-items: center; justify-content: center;
+    min-height: 60px;
   }
   .lb-stage span {
     font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em;
@@ -405,10 +401,10 @@
   .lb-close:hover { color: var(--fg); border-color: var(--accent); }
   .lb-series { margin-top: 8px; display: flex; flex-direction: column; gap: 8px; }
   .lb-series-img {
-    width: 100%; aspect-ratio: 16 / 10;
+    width: 100%;
     background: var(--bg-2); border: 1px solid var(--line); overflow: hidden;
   }
-  .lb-series-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .lb-series-img img { width: 100%; height: auto; display: block; }
 
   @media (max-width: 880px) {
     .grid { grid-template-columns: repeat(2, 1fr); }
@@ -558,7 +554,7 @@
       if (!lbImg) {
         lbImg = document.createElement('img');
         lbImg.id = 'lbImg';
-        lbImg.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;';
+        lbImg.style.cssText = 'width:100%;height:auto;display:block;';
         stage.appendChild(lbImg);
       }
       lbImg.src = src;
