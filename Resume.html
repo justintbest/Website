@@ -35,8 +35,8 @@
   }
   ::selection { background: var(--accent-dim); color: var(--fg); }
 
-  .wrap { max-width: 1440px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 64px); }
-  .wrap.nav { width: 100%; max-width: none; margin: 0; padding: 0 10px; }
+  .wrap { width: 100%; max-width: none; margin: 0; padding: 0 10px; }
+  .wrap.content { max-width: 1440px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 64px); }
 
   .mono-label {
     font-family: var(--mono);
@@ -202,7 +202,7 @@
 
 <main>
   <!-- TOP: portrait + name -->
-  <section class="wrap resume-top">
+  <section class="wrap content resume-top">
     <div class="portrait">
       <span>Portrait — drop image</span>
     </div>
@@ -219,7 +219,7 @@
   </section>
 
   <!-- BODY: editable text. Replace the placeholder lines below with your own copy. -->
-  <section class="wrap resume-body" style="display:block;">
+  <section class="wrap content resume-body" style="display:block;">
     <div class="row">
       <h2>Profile</h2>
       <div class="content">
