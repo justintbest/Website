@@ -56,6 +56,11 @@ window.GALLERY = [
       { thumb: "images/project-formula-1/Formula 3.png", full: "images/project-formula-1/Formula 3.png" },
     ]
   },
+  { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png",
+    series: [
+      { thumb: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png", full: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png" },
+    ]
+  },
   { title: "Scanner", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-scanner/Overhead LR.jpg", full: "images/project-scanner/Overhead LR.jpg",
     series: [
       { thumb: "images/project-scanner/Rim ShotLR.jpg", full: "images/project-scanner/Rim ShotLR.jpg" },
