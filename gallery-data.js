@@ -56,7 +56,7 @@ window.GALLERY = [
       { thumb: "images/project-formula-1/Formula 3.png", full: "images/project-formula-1/Formula 3.png" },
     ]
   },
-  { title: "Dual Wielded", project: "Futurist", category: "Vehicle", cat: "veh", year: "2026", thumb: "images/project-dualwielded/Dual Weild4.png", full: "images/project-dualwielded/Dual Weild4.png", imgPos: "center -40px" },
+  { title: "Dual Wielded", project: "Futurist", category: "Character", cat: "char", year: "2026", thumb: "images/project-dualwielded/Dual Weild4.png", full: "images/project-dualwielded/Dual Weild4.png", imgPos: "center -40px" },
   { title: "Mesozoic", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-mesozoic/mesozoic18CD4 LR.jpg", full: "images/project-mesozoic/mesozoic18CD4 LR.jpg",
     series: [
       { thumb: "images/project-mesozoic/CutsheetPS2 LR.jpg", full: "images/project-mesozoic/CutsheetPS2 LR.jpg" },
@@ -74,7 +74,7 @@ window.GALLERY = [
       { thumb: "images/project-scanner/Scanner Info Sheet LR.jpg", full: "images/project-scanner/Scanner Info Sheet LR.jpg" },
     ]
   },
-  { title: "PS Inaugura", project: "Futurist", category: "Keyframe", cat: "key", year: "2026", thumb: "images/Futurist_PS INAUGURA.png", full: "images/Futurist_PS INAUGURA.png" },
+  { title: "PS Inaugura", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/Futurist_PS INAUGURA.png", full: "images/Futurist_PS INAUGURA.png" },
   { title: "Temple", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-temple/project-temple.jpg", full: "images/project-temple/project-temple.jpg",
     series: [
       { thumb: "images/project-temple/Temple Post Kit Low Res.png", full: "images/project-temple/Temple Post Kit Low Res.png" },
