@@ -48,24 +48,16 @@ window.HERO_SLIDES = [
                 If you omit "full", the thumb image is used.
 ---------------------------------------------------------------------------- */
 window.GALLERY = [
-  /* ---- Placeholder cards below. Replace these with your own images,
-          or delete the ones you don't need. ---- */
-  { title: "Formula 1 Wind Tunnel", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-formula-1/Formula 1.png", full: "images/project-formula-1/Formula 1.png",
+  { title: "PS Inaugura", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/Futurist_PS INAUGURA.png", full: "images/Futurist_PS INAUGURA.png" },
+  { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png",
     series: [
-      { thumb: "images/project-formula-1/Formula 2.png", full: "images/project-formula-1/Formula 2.png" },
-      { thumb: "images/project-formula-1/Formula 3.png", full: "images/project-formula-1/Formula 3.png" },
+      { thumb: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png", full: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png" },
     ]
   },
-  { title: "Dual Wielded", project: "Futurist", category: "Character", cat: "char", year: "2026", thumb: "images/project-dualwielded/Dual Weild4.png", full: "images/project-dualwielded/Dual Weild4.png", imgPos: "center -40px" },
   { title: "Mesozoic", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-mesozoic/mesozoic18CD4 LR.jpg", full: "images/project-mesozoic/mesozoic18CD4 LR.jpg",
     series: [
       { thumb: "images/project-mesozoic/CutsheetPS2 LR.jpg", full: "images/project-mesozoic/CutsheetPS2 LR.jpg" },
       { thumb: "images/project-mesozoic/CutsheetPS3 LR.jpg", full: "images/project-mesozoic/CutsheetPS3 LR.jpg" },
-    ]
-  },
-  { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png",
-    series: [
-      { thumb: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png", full: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png" },
     ]
   },
   { title: "Scanner", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-scanner/Overhead LR.jpg", full: "images/project-scanner/Overhead LR.jpg",
@@ -74,12 +66,18 @@ window.GALLERY = [
       { thumb: "images/project-scanner/Scanner Info Sheet LR.jpg", full: "images/project-scanner/Scanner Info Sheet LR.jpg" },
     ]
   },
-  { title: "PS Inaugura", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/Futurist_PS INAUGURA.png", full: "images/Futurist_PS INAUGURA.png" },
   { title: "Temple", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-temple/project-temple.jpg", full: "images/project-temple/project-temple.jpg",
     series: [
       { thumb: "images/project-temple/Temple Post Kit Low Res.png", full: "images/project-temple/Temple Post Kit Low Res.png" },
     ]
   },
+  { title: "Formula 1 Wind Tunnel", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-formula-1/Formula 1.png", full: "images/project-formula-1/Formula 1.png",
+    series: [
+      { thumb: "images/project-formula-1/Formula 2.png", full: "images/project-formula-1/Formula 2.png" },
+      { thumb: "images/project-formula-1/Formula 3.png", full: "images/project-formula-1/Formula 3.png" },
+    ]
+  },
+  { title: "Dual Wielded", project: "Futurist", category: "Character", cat: "char", year: "2026", thumb: "images/project-dualwielded/Dual Weild4.png", full: "images/project-dualwielded/Dual Weild4.png", imgPos: "center -40px" },
   { title: "Drowned Cathedral", project: "Project Tidewall", category: "Environment", cat: "env", year: "2025" },
   { title: "Hauler Class-VII",  project: "Orbital",          category: "Vehicle",     cat: "veh", year: "2025" },
   { title: "Ash Pilgrim",       project: "Emberfall",        category: "Character",   cat: "char", year: "2024" },
