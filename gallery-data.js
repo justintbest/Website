@@ -29,7 +29,7 @@
    Leave the list empty [] to hide the slideshow.
 ---------------------------------------------------------------------------- */
 window.HERO_SLIDES = [
-  "images/Futurist_PS INAUGURA.png",
+  "images/project-inaugura/Futurist_PS INAUGURA.png",
   "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png",
   "images/project-mesozoic/mesozoic18CD4 LR.jpg",
   "images/project-archives/Archives Final LR.jpg",
@@ -50,7 +50,11 @@ window.HERO_SLIDES = [
                 If you omit "full", the thumb image is used.
 ---------------------------------------------------------------------------- */
 window.GALLERY = [
-  { title: "PS Inaugura", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/Futurist_PS INAUGURA.png", full: "images/Futurist_PS INAUGURA.png" },
+  { title: "PS Inaugura", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-inaugura/Futurist_PS INAUGURA.png", full: "images/project-inaugura/Futurist_PS INAUGURA.png",
+    series: [
+      { thumb: "images/project-inaugura/Cutsheet LR.jpg", full: "images/project-inaugura/Cutsheet LR.jpg" },
+    ]
+  },
   { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png",
     series: [
       { thumb: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png", full: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png" },
