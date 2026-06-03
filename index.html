@@ -402,6 +402,21 @@
     padding: 10px 16px; cursor: pointer; transition: all 0.2s;
   }
   .lb-close:hover { color: var(--fg); border-color: var(--accent); }
+  .lb-strip {
+    display: flex; gap: 8px; margin-top: 14px; overflow-x: auto;
+    scrollbar-width: thin; scrollbar-color: var(--line) transparent;
+    padding-bottom: 4px;
+  }
+  .lb-strip:empty { display: none; }
+  .lb-strip-thumb {
+    flex: 0 0 auto; width: 110px; aspect-ratio: 16 / 10;
+    border: 1px solid var(--line); cursor: pointer; overflow: hidden;
+    transition: border-color 0.2s; background: var(--bg-2);
+  }
+  .lb-strip-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .lb-strip-thumb.active { border-color: var(--accent); }
+  .lb-strip-thumb:hover { border-color: var(--fg-2); }
+  .lb-strip-thumb.active:hover { border-color: var(--accent); }
 
   @media (max-width: 880px) {
     .grid { grid-template-columns: repeat(2, 1fr); }
@@ -489,6 +504,7 @@
         <button class="lb-btn" id="lbNext">→</button>
       </div>
     </div>
+    <div class="lb-strip" id="lbStrip"></div>
   </div>
 </div>
 
@@ -559,6 +575,24 @@
       if (lbImg) lbImg.style.display = 'none';
       ph.style.display = '';
       ph.textContent = p.med + ' — drop image';
+    }
+    // Rebuild project filmstrip
+    const strip = document.getElementById('lbStrip');
+    const siblings = visible.filter(x => x.proj === p.proj);
+    if (siblings.length > 1) {
+      strip.innerHTML = '';
+      siblings.forEach(s => {
+        const idx = visible.indexOf(s);
+        const thumb = document.createElement('div');
+        thumb.className = 'lb-strip-thumb' + (idx === cur ? ' active' : '');
+        if (s.img) {
+          thumb.innerHTML = `<img src="${s.img}" alt="${s.t}" loading="lazy">`;
+        }
+        thumb.addEventListener('click', () => { cur = idx; fillLb(); });
+        strip.appendChild(thumb);
+      });
+    } else {
+      strip.innerHTML = '';
     }
   }
   function closeLb() { lb.classList.remove('open'); document.body.style.overflow = ''; }
