@@ -413,6 +413,38 @@
     .nav-links { display: none; }
     .hero-sub { flex-direction: column; align-items: flex-start; }
   }
+
+  @media (max-width: 540px) {
+    /* Nav — show only icons, hide text links */
+    .brand .byline { display: none; }
+    .brand .mark { font-size: 18px; letter-spacing: 0.22em; }
+
+    /* Hero */
+    .hero-show { height: clamp(260px, 55vw, 420px); }
+
+    /* Gallery — single column */
+    .grid { grid-template-columns: 1fr; min-height: 0; }
+    .card, .card.wide, .card.tall, .card.feature { aspect-ratio: 16/9; }
+    .card .info { transform: translateY(0); opacity: 1; }
+    .card .scrim { opacity: 1; }
+
+    /* Filters — allow wrapping cleanly */
+    .gallery-head { flex-direction: column; align-items: flex-start; gap: 14px; }
+    .filters { gap: 6px; }
+    .filter { padding: 6px 11px; font-size: 10px; }
+
+    /* Footer */
+    .foot { flex-direction: column; align-items: flex-start; }
+    .foot-meta { text-align: left; }
+
+    /* Lightbox */
+    .lb { padding: 16px; padding-top: 56px; }
+    .lb-inner { width: 100%; }
+    .lb-close { top: 12px; right: 12px; padding: 8px 12px; font-size: 11px; }
+    .lb-bar .t { font-size: 18px; }
+    .lb-bar { flex-direction: column; gap: 12px; }
+    .lb-nav { align-self: flex-end; }
+  }
 </style>
 </head>
 <body>
