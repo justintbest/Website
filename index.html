@@ -502,7 +502,7 @@
   const PIECES = (window.GALLERY || []).map(g => ({
     t: g.title, proj: g.project, med: g.category, year: g.year, cat: g.cat,
     img: g.thumb || g.full || '', full: g.full || g.thumb || '',
-    series: g.series || []
+    series: g.series || [], imgPos: g.imgPos || 'center'
   }));
 
   const grid = document.getElementById('grid');
@@ -515,7 +515,7 @@
       const card = document.createElement('div');
       card.className = 'card' + (p.size ? ' ' + p.size : '');
       card.innerHTML = `
-        ${p.img ? `<img class="cimg" src="${p.img}" alt="${p.t}" loading="lazy">` : `<div class="ph"><span>${p.med} — drop image</span></div>`}
+        ${p.img ? `<img class="cimg" src="${p.img}" alt="${p.t}" loading="lazy" style="object-position:${p.imgPos}">` : `<div class="ph"><span>${p.med} — drop image</span></div>`}
         <div class="scrim"></div>
         <div class="info">
           <div class="t">${p.t}</div>
