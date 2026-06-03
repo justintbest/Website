@@ -29,7 +29,7 @@
    Leave the list empty [] to hide the slideshow.
 ---------------------------------------------------------------------------- */
 window.HERO_SLIDES = [
-  "Futurist_PS INAUGURA.png",
+  "images/Futurist_PS INAUGURA.png",
   "Hero slot 2 — replace with an image path",
   "Hero slot 3 — replace with an image path",
 ];
@@ -50,7 +50,7 @@ window.HERO_SLIDES = [
 window.GALLERY = [
   /* ---- Placeholder cards below. Replace these with your own images,
           or delete the ones you don't need. ---- */
-  { title: "PS Inaugura", project: "Futurist", category: "Keyframe", cat: "key", year: "2026", thumb: "Futurist_PS INAUGURA.png", full: "Futurist_PS INAUGURA.png" },
+  { title: "PS Inaugura", project: "Futurist", category: "Keyframe", cat: "key", year: "2026", thumb: "images/Futurist_PS INAUGURA.png", full: "images/Futurist_PS INAUGURA.png" },
   { title: "Drowned Cathedral", project: "Project Tidewall", category: "Environment", cat: "env", year: "2025" },
   { title: "Hauler Class-VII",  project: "Orbital",          category: "Vehicle",     cat: "veh", year: "2025" },
   { title: "Ash Pilgrim",       project: "Emberfall",        category: "Character",   cat: "char", year: "2024" },
