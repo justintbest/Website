@@ -414,21 +414,71 @@
     .hero-sub { flex-direction: column; align-items: flex-start; }
   }
 
+  /* Burger — hidden on desktop */
+  .burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 4px;
+  }
+  .burger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--fg);
+    transition: transform 0.25s, opacity 0.25s;
+  }
+  .burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .burger.open span:nth-child(2) { opacity: 0; }
+  .burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 68px;
+    left: 0; right: 0;
+    background: oklch(0.155 0.006 265 / 0.97);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--line-soft);
+    z-index: 49;
+  }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a {
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--fg);
+    text-decoration: none;
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--line-soft);
+    transition: color 0.2s;
+  }
+  .mobile-menu a:last-child { border-bottom: none; }
+  .mobile-menu a:hover { color: var(--accent); }
+
   @media (max-width: 540px) {
-    /* Nav — show only icons, hide text links */
+    /* Nav */
+    .burger { display: flex; }
     .brand .byline { display: none; }
     .brand .mark { font-size: 18px; letter-spacing: 0.22em; }
 
     /* Hero */
     .hero-show { height: clamp(260px, 55vw, 420px); }
 
-    /* Gallery — single column */
+    /* Gallery — single column, info shows on tap only */
     .grid { grid-template-columns: 1fr; min-height: 0; }
     .card, .card.wide, .card.tall, .card.feature { aspect-ratio: 16/9; }
-    .card .info { transform: translateY(0); opacity: 1; }
-    .card .scrim { opacity: 1; }
+    .card.tapped .info { transform: translateY(0); opacity: 1; }
+    .card.tapped .scrim { opacity: 1; }
 
-    /* Filters — allow wrapping cleanly */
+    /* Filters */
     .gallery-head { flex-direction: column; align-items: flex-start; gap: 14px; }
     .filters { gap: 6px; }
     .filter { padding: 6px 11px; font-size: 10px; }
@@ -467,7 +517,14 @@
         </a>
       </span>
     </nav>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#work" id="mobileWork">Work</a>
+    <a href="Resume.html">Resume</a>
+  </nav>
 </header>
 
 <main>
@@ -554,7 +611,10 @@
           <div class="t">${p.t}</div>
           <div class="m"><span>${p.proj}</span><span>${p.year}</span></div>
         </div>`;
-      card.addEventListener('click', () => openLb(i));
+      card.addEventListener('click', (e) => {
+        if (window.innerWidth <= 540 && !card.classList.contains('tapped')) return;
+        openLb(i);
+      });
       grid.appendChild(card);
     });
   }
@@ -625,6 +685,28 @@
   });
 
   render('all');
+
+  /* ---- Burger menu ---- */
+  const burger = document.getElementById('burger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+  });
+  document.getElementById('mobileWork').addEventListener('click', () => {
+    burger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+  });
+
+  /* ---- Mobile tap-to-reveal card titles ---- */
+  grid.addEventListener('click', e => {
+    if (window.innerWidth > 540) return;
+    const card = e.target.closest('.card');
+    if (!card) return;
+    const already = card.classList.contains('tapped');
+    grid.querySelectorAll('.card.tapped').forEach(c => c.classList.remove('tapped'));
+    if (!already) { card.classList.add('tapped'); e.stopPropagation(); return; }
+  });
 
   /* ---- Hero slideshow (built from HERO_SLIDES in gallery-data.js) ---- */
   (function () {
