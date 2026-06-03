@@ -30,7 +30,9 @@
 ---------------------------------------------------------------------------- */
 window.HERO_SLIDES = [
   "images/Futurist_PS INAUGURA.png",
-  "images/project-formula-1/Formula 1.png",
+  "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png",
+  "images/project-mesozoic/mesozoic18CD4 LR.jpg",
+  "images/project-archives/Archives Final LR.jpg",
   "images/project-temple/project-temple.jpg",
 ];
 
