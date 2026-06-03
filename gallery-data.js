@@ -56,6 +56,12 @@ window.GALLERY = [
       { thumb: "images/project-formula-1/Formula 3.png", full: "images/project-formula-1/Formula 3.png" },
     ]
   },
+  { title: "Mesozoic", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-mesozoic/mesozoic18CD4 LR.jpg", full: "images/project-mesozoic/mesozoic18CD4 LR.jpg",
+    series: [
+      { thumb: "images/project-mesozoic/CutsheetPS2 LR.jpg", full: "images/project-mesozoic/CutsheetPS2 LR.jpg" },
+      { thumb: "images/project-mesozoic/CutsheetPS3 LR.jpg", full: "images/project-mesozoic/CutsheetPS3 LR.jpg" },
+    ]
+  },
   { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png",
     series: [
       { thumb: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png", full: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png" },
