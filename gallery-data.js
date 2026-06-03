@@ -60,6 +60,11 @@ window.GALLERY = [
       { thumb: "images/project-mesozoic/CutsheetPS3 LR.jpg", full: "images/project-mesozoic/CutsheetPS3 LR.jpg" },
     ]
   },
+  { title: "Archives", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-archives/Archives Final LR.jpg", full: "images/project-archives/Archives Final LR.jpg",
+    series: [
+      { thumb: "images/project-archives/Archives Cutsheet LR.jpg", full: "images/project-archives/Archives Cutsheet LR.jpg" },
+    ]
+  },
   { title: "Scanner", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-scanner/Overhead LR.jpg", full: "images/project-scanner/Overhead LR.jpg",
     series: [
       { thumb: "images/project-scanner/Rim ShotLR.jpg", full: "images/project-scanner/Rim ShotLR.jpg" },
