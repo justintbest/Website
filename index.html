@@ -386,7 +386,7 @@
     text-transform: uppercase; color: var(--fg-3);
     border: 1px dashed var(--line); padding: 8px 16px;
   }
-  .lb-bar { display: flex; justify-content: space-between; align-items: flex-start; margin-top: 22px; gap: 24px; }
+  .lb-bar { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 22px; gap: 24px; }
   .lb-bar .t { font-size: 24px; font-weight: 600; letter-spacing: -0.01em; }
   .lb-bar .m { margin-top: 8px; display: flex; gap: 18px; }
   .lb-nav { display: flex; gap: 10px; }
@@ -479,9 +479,6 @@
 <div class="lb" id="lb">
   <button class="lb-close" id="lbClose">Esc ✕</button>
   <div class="lb-inner">
-    <div class="lb-stage">
-      <span id="lbPh">Drop image</span>
-    </div>
     <div class="lb-bar">
       <div>
         <div class="t" id="lbTitle">Title</div>
@@ -495,6 +492,9 @@
         <button class="lb-btn" id="lbPrev">←</button>
         <button class="lb-btn" id="lbNext">→</button>
       </div>
+    </div>
+    <div class="lb-stage">
+      <span id="lbPh">Drop image</span>
     </div>
     <div class="lb-series" id="lbSeries"></div>
   </div>
