@@ -202,7 +202,7 @@
     inset: 0;
     background: oklch(0.155 0.006 265 / 0.98);
     backdrop-filter: blur(20px);
-    z-index: 49;
+    z-index: 200;
   }
   .mobile-menu.open { display: flex; }
   .mobile-menu a {
@@ -223,6 +223,10 @@
     .brand .byline { display: none; }
     .brand .mark { font-size: 18px; letter-spacing: 0.22em; }
 
+    /* Consistent edge padding for all content */
+    .wrap { padding-left: 16px; padding-right: 16px; }
+    .wrap.nav { padding-left: 0; padding-right: 0; }
+
     /* Resume top — stack portrait above intro */
     .resume-top { grid-template-columns: 1fr; padding-top: 32px; }
     .portrait { max-width: 100%; aspect-ratio: 3/2; }
@@ -232,7 +236,7 @@
     .row { display: block; margin-bottom: 36px; }
     .row > h2 { margin-bottom: 10px; }
 
-    /* Footer-style text */
+    /* Name size */
     .intro h1 { font-size: clamp(36px, 12vw, 60px); }
   }
 </style>
@@ -261,11 +265,11 @@
       <span></span><span></span><span></span>
     </button>
   </div>
-  <nav class="mobile-menu" id="mobileMenu">
-    <a href="index.html">Work</a>
-    <a href="Resume.html">Resume</a>
-  </nav>
 </header>
+<nav class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Work</a>
+  <a href="Resume.html">Resume</a>
+</nav>
 <script>
   const burger = document.getElementById('burger');
   const mobileMenu = document.getElementById('mobileMenu');
