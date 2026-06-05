@@ -29,8 +29,8 @@
    Leave the list empty [] to hide the slideshow.
 ---------------------------------------------------------------------------- */
 window.HERO_SLIDES = [
-  "images/project-inaugura/Futurist_PS INAUGURA.png",
-  "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png",
+  "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg",
+  "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR2.jpg",
   "images/project-mesozoic/mesozoic18CD4 LR.jpg",
   "images/project-archives/Archives Final LR.jpg",
   { src: "images/project-temple/project-temple.jpg", imgPos: "center -300px" },
@@ -50,12 +50,12 @@ window.HERO_SLIDES = [
                 If you omit "full", the thumb image is used.
 ---------------------------------------------------------------------------- */
 window.GALLERY = [
-  { title: "PS Inaugura", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-inaugura/Futurist_PS INAUGURA.png", full: "images/project-inaugura/Futurist_PS INAUGURA.png",
+  { title: "PS Inaugura", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg", full: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg",
     series: [
       { thumb: "images/project-inaugura/Cutsheet LR.jpg", full: "images/project-inaugura/Cutsheet LR.jpg" },
     ]
   },
-  { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30.png",
+  { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR2.jpg", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR2.jpg",
     series: [
       { thumb: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png", full: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png" },
     ]
