@@ -62,6 +62,7 @@ window.GALLERY = [
   },
   { title: "Mesozoic", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-mesozoic/mesozoic18CD4 LR.jpg", full: "images/project-mesozoic/mesozoic18CD4 LR.jpg",
     series: [
+      { thumb: "images/project-mesozoic/CutsheetPS5 LR.jpg", full: "images/project-mesozoic/CutsheetPS5 LR.jpg" },
       { thumb: "images/project-mesozoic/CutsheetPS2 LR.jpg", full: "images/project-mesozoic/CutsheetPS2 LR.jpg" },
       { thumb: "images/project-mesozoic/CutsheetPS3 LR.jpg", full: "images/project-mesozoic/CutsheetPS3 LR.jpg" },
     ]
