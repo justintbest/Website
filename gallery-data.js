@@ -30,7 +30,7 @@
 ---------------------------------------------------------------------------- */
 window.HERO_SLIDES = [
   "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg",
-  "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR2.jpg",
+  "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg",
   "images/project-mesozoic/mesozoic18CD4 LR.jpg",
   "images/project-archives/Archives Final LR.jpg",
   { src: "images/project-temple/project-temple.jpg", imgPos: "center -300px" },
@@ -55,7 +55,7 @@ window.GALLERY = [
       { thumb: "images/project-inaugura/Cutsheet LR.jpg", full: "images/project-inaugura/Cutsheet LR.jpg" },
     ]
   },
-  { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR2.jpg", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR2.jpg",
+  { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg",
     series: [
       { thumb: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png", full: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png" },
     ]
