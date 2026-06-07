@@ -20,7 +20,11 @@ window.GALLERY = [
       { thumb: "images/project-the-monolith/galkleryu2.jpg", full: "images/project-the-monolith/galkleryu2.jpg" },
     ]
   },
-  { title: "Housing for Barcelona", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-housing-for-barcelona/Aerial Render Final.jpg", full: "images/project-housing-for-barcelona/Aerial Render Final.jpg" },
+  { title: "Housing for Barcelona", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-housing-for-barcelona/Aerial Render Final.jpg", full: "images/project-housing-for-barcelona/Aerial Render Final.jpg",
+    series: [
+      { thumb: "images/project-housing-for-barcelona/Communal Render Final.jpg", full: "images/project-housing-for-barcelona/Communal Render Final.jpg" },
+    ]
+  },
   { title: "Porsche Headlight Study", project: "Architecture", category: "Speculative", cat: "speculative", year: "2026", thumb: "images/project-porsche-headlight-study/gray.jpg", full: "images/project-porsche-headlight-study/gray.jpg",
     series: [
       { thumb: "images/project-porsche-headlight-study/black.jpg", full: "images/project-porsche-headlight-study/black.jpg" },
