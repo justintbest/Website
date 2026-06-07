@@ -25,6 +25,13 @@ window.GALLERY = [
       { thumb: "images/project-housing-for-barcelona/Communal Render Final.jpg", full: "images/project-housing-for-barcelona/Communal Render Final.jpg" },
     ]
   },
+  { title: "Future Forensics", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-future-forensics/Image0207.jpg", full: "images/project-future-forensics/Image0207.jpg",
+    series: [
+      { thumb: "images/project-future-forensics/SITE.jpg", full: "images/project-future-forensics/SITE.jpg" },
+      { thumb: "images/project-future-forensics/PROGRAM.jpg", full: "images/project-future-forensics/PROGRAM.jpg" },
+      { thumb: "images/project-future-forensics/MATTER.jpg", full: "images/project-future-forensics/MATTER.jpg" },
+    ]
+  },
   { title: "Porsche Headlight Study", project: "Architecture", category: "Speculative", cat: "speculative", year: "2026", thumb: "images/project-porsche-headlight-study/gray.jpg", full: "images/project-porsche-headlight-study/gray.jpg",
     series: [
       { thumb: "images/project-porsche-headlight-study/black.jpg", full: "images/project-porsche-headlight-study/black.jpg" },
