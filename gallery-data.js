@@ -57,9 +57,9 @@ window.GALLERY = [
   },
   { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg",
     series: [
-      { thumb: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png", full: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png" },
       { thumb: "images/project-paris-reimagined/Prop Design.jpg", full: "images/project-paris-reimagined/Prop Design.jpg" },
       { thumb: "images/project-paris-reimagined/Studio Lighting Setup.jpg", full: "images/project-paris-reimagined/Studio Lighting Setup.jpg" },
+      { thumb: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png", full: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png" },
     ]
   },
   { title: "Mesozoic", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-mesozoic/mesozoic18CD4 LR.jpg", full: "images/project-mesozoic/mesozoic18CD4 LR.jpg",
