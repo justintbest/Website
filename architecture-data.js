@@ -46,4 +46,11 @@ window.GALLERY = [
       { thumb: "images/project-formula-1/Formula 4.jpg", full: "images/project-formula-1/Formula 4.jpg" },
     ]
   },
+  { title: "Ascend", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-ascend/2expocityrender4.6.jpg", full: "images/project-ascend/2expocityrender4.6.jpg",
+    series: [
+      { thumb: "images/project-ascend/2expocityrender2.5.jpg", full: "images/project-ascend/2expocityrender2.5.jpg" },
+      { thumb: "images/project-ascend/exporender5.57.jpg", full: "images/project-ascend/exporender5.57.jpg" },
+      { thumb: "images/project-ascend/exporender3.2.jpg", full: "images/project-ascend/exporender3.2.jpg" },
+    ]
+  },
 ];
