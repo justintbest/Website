@@ -69,7 +69,7 @@ window.GALLERY = [
   },
   { title: "Archives", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-archives/Archives Final LR.jpg", full: "images/project-archives/Archives Final LR.jpg",
     series: [
-      { thumb: "images/project-archives/Archives Cutsheet LR.jpg", full: "images/project-archives/Archives Cutsheet LR.jpg" },
+      { thumb: "images/project-archives/Archives Cutsheet LR.jpg?v=2", full: "images/project-archives/Archives Cutsheet LR.jpg?v=2" },
     ]
   },
   { title: "Scanner", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-scanner/Overhead LR.jpg", full: "images/project-scanner/Overhead LR.jpg",
