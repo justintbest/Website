@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SLEEK — Concept Art</title>
+<title>SLEEK — Architecture</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -510,8 +510,8 @@
       <span class="byline">CONCEPT ART &amp; ARCHITECTURE</span>
     </a>
     <nav class="nav-links">
-      <a href="#" onclick="event.preventDefault()">Concept Art</a>
-      <a href="Architecture.html">Architecture</a>
+      <a href="index.html">Concept Art</a>
+      <a href="#" onclick="event.preventDefault()">Architecture</a>
       <a href="Resume.html">Resume</a>
     </nav>
     <span class="nav-social">
@@ -531,8 +531,8 @@
   </div>
 </header>
 <nav class="mobile-menu" id="mobileMenu">
-  <a href="#" id="mobileWork" onclick="event.preventDefault()">Concept Art</a>
-  <a href="Architecture.html">Architecture</a>
+  <a href="index.html" id="mobileWork">Concept Art</a>
+  <a href="#" onclick="event.preventDefault()">Architecture</a>
   <a href="Resume.html">Resume</a>
 </nav>
 
@@ -546,7 +546,7 @@
   <!-- GALLERY -->
   <section class="wrap" id="work" style="padding-top: clamp(20px, 2.5vw, 32px);">
     <div class="gallery-head">
-      <h2>Selected Work</h2>
+      <h2>Architecture</h2>
       <div class="filters">
         <button class="filter active" data-f="all">All</button>
         <button class="filter" data-f="env">Environments</button>
@@ -595,7 +595,7 @@
   </div>
 </div>
 
-<script src="gallery-data.js"></script>
+<script src="architecture-data.js"></script>
 <script>
   // Build the render model from the editable content file (gallery-data.js).
   const PIECES = (window.GALLERY || []).map(g => ({
