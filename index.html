@@ -66,6 +66,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
     height: 68px;
     padding: 0 clamp(8px, 1.6vw, 26px);
   }
@@ -92,7 +93,10 @@
     text-transform: uppercase;
     color: var(--fg);
   }
-  .nav-links { display: flex; gap: 36px; align-items: center; }
+  .nav-links {
+    display: flex; gap: 36px; align-items: center;
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  }
   .nav-links > a {
     font-family: var(--mono);
     font-size: 14px;
@@ -504,7 +508,8 @@
       <span class="byline">CONCEPT ART &amp; ARCHITECTURE</span>
     </a>
     <nav class="nav-links">
-      <a href="#work">Work</a>
+      <a href="#work">Concept Art</a>
+      <a href="#work">Architecture</a>
       <a href="Resume.html">Resume</a>
       <span class="nav-social">
         <a href="https://www.linkedin.com/in/justin--best" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-ico">
@@ -521,7 +526,8 @@
   </div>
 </header>
 <nav class="mobile-menu" id="mobileMenu">
-  <a href="#work" id="mobileWork">Work</a>
+  <a href="#work" id="mobileWork">Concept Art</a>
+  <a href="#work">Architecture</a>
   <a href="Resume.html">Resume</a>
 </nav>
 
