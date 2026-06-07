@@ -83,12 +83,6 @@ window.GALLERY = [
       { thumb: "images/project-temple/Temple Post Kit Low Res.png", full: "images/project-temple/Temple Post Kit Low Res.png" },
     ]
   },
-  { title: "Formula 1 Wind Tunnel", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-formula-1/Formula 1.png", full: "images/project-formula-1/Formula 1.png",
-    series: [
-      { thumb: "images/project-formula-1/Formula 2.png", full: "images/project-formula-1/Formula 2.png" },
-      { thumb: "images/project-formula-1/Formula 3.png", full: "images/project-formula-1/Formula 3.png" },
-    ]
-  },
   { title: "Dual Wielded", project: "Futurist", category: "Character", cat: "char", year: "2026", thumb: "images/project-dualwielded/Dual Weild4.png", full: "images/project-dualwielded/Dual Weild4.png", imgPos: "center -40px" },
   { title: "Drowned Cathedral", project: "Project Tidewall", category: "Environment", cat: "env", year: "2025" },
   { title: "Hauler Class-VII",  project: "Orbital",          category: "Vehicle",     cat: "veh", year: "2025" },

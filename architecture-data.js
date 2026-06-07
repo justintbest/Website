@@ -39,4 +39,11 @@ window.GALLERY = [
       { thumb: "images/project-porsche-headlight-study/red.jpg", full: "images/project-porsche-headlight-study/red.jpg" },
     ]
   },
+  { title: "Formula 1 Wind Tunnel", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-formula-1/Formula 1.jpg", full: "images/project-formula-1/Formula 1.jpg",
+    series: [
+      { thumb: "images/project-formula-1/Formula 2.jpg", full: "images/project-formula-1/Formula 2.jpg" },
+      { thumb: "images/project-formula-1/Formula 3.jpg", full: "images/project-formula-1/Formula 3.jpg" },
+      { thumb: "images/project-formula-1/Formula 4.jpg", full: "images/project-formula-1/Formula 4.jpg" },
+    ]
+  },
 ];
