@@ -10,6 +10,8 @@ window.HERO_SLIDES = [
   "images/project-the-monolith/Hero Image 1.jpg",
   "images/project-housing-for-barcelona/Aerial Render Final.jpg",
   "images/project-porsche-headlight-study/gray.jpg",
+  "images/project-formula-1/Formula 1.jpg",
+  "images/project-ascend/2expocityrender4.6.jpg",
 ];
 
 window.GALLERY = [
