@@ -11,7 +11,7 @@ window.HERO_SLIDES = [
 ];
 
 window.GALLERY = [
-  { title: "The Monolith", project: "Architecture", category: "Environment", cat: "env", year: "2026", thumb: "images/project-the-monolith/Hero Image 1.jpg", full: "images/project-the-monolith/Hero Image 1.jpg",
+  { title: "The Monolith", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-the-monolith/Hero Image 1.jpg", full: "images/project-the-monolith/Hero Image 1.jpg",
     series: [
       { thumb: "images/project-the-monolith/Street 2 PS.jpg", full: "images/project-the-monolith/Street 2 PS.jpg" },
       { thumb: "images/project-the-monolith/Custic Corridor.jpg", full: "images/project-the-monolith/Custic Corridor.jpg" },
@@ -19,5 +19,5 @@ window.GALLERY = [
       { thumb: "images/project-the-monolith/galkleryu2.jpg", full: "images/project-the-monolith/galkleryu2.jpg" },
     ]
   },
-  { title: "Housing for Barcelona", project: "Architecture", category: "Environment", cat: "env", year: "2026", thumb: "images/project-housing-for-barcelona/Aerial Render Final.jpg", full: "images/project-housing-for-barcelona/Aerial Render Final.jpg" },
+  { title: "Housing for Barcelona", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-housing-for-barcelona/Aerial Render Final.jpg", full: "images/project-housing-for-barcelona/Aerial Render Final.jpg" },
 ];
