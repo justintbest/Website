@@ -6,11 +6,11 @@
    ========================================================================== */
 
 window.HERO_SLIDES = [
-  "images/Hero Image 1.jpg",
-  "images/Aerial Render Final.jpg",
+  "images/project-the-monolith/Hero Image 1.jpg",
+  "images/project-housing-for-barcelona/Aerial Render Final.jpg",
 ];
 
 window.GALLERY = [
-  { title: "Hero Project", project: "Architecture", category: "Environment", cat: "env", year: "2026", thumb: "images/Hero Image 1.jpg", full: "images/Hero Image 1.jpg" },
-  { title: "Aerial Render", project: "Architecture", category: "Environment", cat: "env", year: "2026", thumb: "images/Aerial Render Final.jpg", full: "images/Aerial Render Final.jpg" },
+  { title: "The Monolith", project: "Architecture", category: "Environment", cat: "env", year: "2026", thumb: "images/project-the-monolith/Hero Image 1.jpg", full: "images/project-the-monolith/Hero Image 1.jpg" },
+  { title: "Housing for Barcelona", project: "Architecture", category: "Environment", cat: "env", year: "2026", thumb: "images/project-housing-for-barcelona/Aerial Render Final.jpg", full: "images/project-housing-for-barcelona/Aerial Render Final.jpg" },
 ];
