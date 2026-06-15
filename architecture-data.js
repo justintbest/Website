@@ -53,6 +53,16 @@ window.GALLERY = [
       { thumb: "images/project-urban-sketching-europe/sketches-collection-1.png", full: "images/project-urban-sketching-europe/sketches-collection-1.png" },
     ]
   },
+  { title: "Rethinking Monolithic Architecture", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-rethinking-monolithic-architecture/model-expo-view-1.jpg", full: "images/project-rethinking-monolithic-architecture/model-expo-view-1.jpg",
+    series: [
+      { thumb: "images/project-rethinking-monolithic-architecture/model-expo-view-2.jpg", full: "images/project-rethinking-monolithic-architecture/model-expo-view-2.jpg" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-1.png", full: "images/project-rethinking-monolithic-architecture/model-photo-1.png" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-2.png", full: "images/project-rethinking-monolithic-architecture/model-photo-2.png" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-3.png", full: "images/project-rethinking-monolithic-architecture/model-photo-3.png" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-4.png", full: "images/project-rethinking-monolithic-architecture/model-photo-4.png" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-pieces.jpg", full: "images/project-rethinking-monolithic-architecture/model-pieces.jpg" },
+    ]
+  },
   { title: "Ascend", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-ascend/2expocityrender4.6.jpg", full: "images/project-ascend/2expocityrender4.6.jpg",
     series: [
       { thumb: "images/project-ascend/2expocityrender2.5.jpg", full: "images/project-ascend/2expocityrender2.5.jpg" },
