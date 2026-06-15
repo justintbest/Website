@@ -411,6 +411,12 @@
     background: var(--bg-2); border: 1px solid var(--line); overflow: hidden;
   }
   .lb-series-img img { width: 100%; height: auto; display: block; }
+  .lb-series.flow { flex-direction: row; flex-wrap: wrap; gap: 8px; }
+  .lb-series.flow .lb-series-img { width: auto; height: 200px; flex: 0 0 auto; }
+  .lb-series.flow .lb-series-img img { width: auto; height: 200px; }
+  @media (max-width: 880px) {
+    .lb-series.flow .lb-series-img, .lb-series.flow .lb-series-img img { height: 140px; }
+  }
 
   @media (max-width: 880px) {
     .grid { grid-template-columns: repeat(2, 1fr); }
@@ -668,6 +674,7 @@
     // Rebuild vertical series stack
     const series = document.getElementById('lbSeries');
     series.innerHTML = '';
+    series.classList.toggle('flow', p.t === 'Rethinking Monolithic Architecture');
     if (p.series && p.series.length) {
       p.series.forEach(s => {
         const wrap = document.createElement('div');
