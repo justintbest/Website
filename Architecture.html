@@ -420,6 +420,14 @@
   .lb-desc .lb-desc-credit { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: var(--fg-3); text-transform: uppercase; }
   .lb-series.flow { display: block; column-count: 2; column-gap: 8px; }
   .lb-series.flow .lb-series-img { width: 100%; margin-bottom: 8px; break-inside: avoid; }
+  .lb-series.flow .lb-series-img.wide { column-span: all; }
+  .lb-series.flow .lb-series-row {
+    column-span: all; display: flex; gap: 8px; margin-bottom: 8px;
+  }
+  .lb-series.flow .lb-series-row .lb-series-img { flex: 1; margin-bottom: 0; }
+  @media (max-width: 880px) {
+    .lb-series.flow .lb-series-row { flex-direction: column; }
+  }
   .lb-series.flow .lb-series-img img { width: 100%; height: auto; }
   @media (max-width: 880px) {
     .lb-series.flow { column-count: 1; }
@@ -694,11 +702,23 @@
     series.innerHTML = '';
     series.classList.toggle('flow', p.t === 'Rethinking Monolithic Architecture' || p.t === 'Cooperative Housing');
     if (p.series && p.series.length) {
+      let rowEl = null;
       p.series.forEach(s => {
         const wrap = document.createElement('div');
-        wrap.className = 'lb-series-img';
+        wrap.className = 'lb-series-img' + (s.wide ? ' wide' : '');
         if (s.full || s.thumb) wrap.innerHTML = `<img src="${s.full || s.thumb}" alt="" loading="lazy">`;
-        series.appendChild(wrap);
+        if (s.row) {
+          if (!rowEl || rowEl.dataset.row !== s.row) {
+            rowEl = document.createElement('div');
+            rowEl.className = 'lb-series-row';
+            rowEl.dataset.row = s.row;
+            series.appendChild(rowEl);
+          }
+          rowEl.appendChild(wrap);
+        } else {
+          rowEl = null;
+          series.appendChild(wrap);
+        }
       });
     }
   }
