@@ -79,9 +79,9 @@ window.GALLERY = [
       { thumb: "images/project-cooperative-housing/site-plan.jpg", full: "images/project-cooperative-housing/site-plan.jpg" },
       { thumb: "images/project-cooperative-housing/unit-axon-diagram.jpg", full: "images/project-cooperative-housing/unit-axon-diagram.jpg" },
       { thumb: "images/project-cooperative-housing/sections.jpg", full: "images/project-cooperative-housing/sections.jpg", wide: true },
-      { thumb: "images/project-cooperative-housing/elevations.jpg", full: "images/project-cooperative-housing/elevations.jpg" },
       { thumb: "images/project-cooperative-housing/floor-plans-1.jpg", full: "images/project-cooperative-housing/floor-plans-1.jpg", row: "plans" },
       { thumb: "images/project-cooperative-housing/floor-plans-2.jpg", full: "images/project-cooperative-housing/floor-plans-2.jpg", row: "plans" },
+      { thumb: "images/project-cooperative-housing/elevations.jpg", full: "images/project-cooperative-housing/elevations.jpg" },
       { thumb: "images/project-cooperative-housing/program-diagram.jpg", full: "images/project-cooperative-housing/program-diagram.jpg" },
     ]
   },
