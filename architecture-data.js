@@ -69,6 +69,18 @@ window.GALLERY = [
       { thumb: "images/project-urban-sketching-europe/sketches-collection-1.png", full: "images/project-urban-sketching-europe/sketches-collection-1.png" },
     ]
   },
+  { title: "Cooperative Housing", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-cooperative-housing/exterior-render-1.jpg", full: "images/project-cooperative-housing/exterior-render-1.jpg",
+    series: [
+      { thumb: "images/project-cooperative-housing/exterior-render-2.jpg", full: "images/project-cooperative-housing/exterior-render-2.jpg" },
+      { thumb: "images/project-cooperative-housing/site-plan.jpg", full: "images/project-cooperative-housing/site-plan.jpg" },
+      { thumb: "images/project-cooperative-housing/unit-axon-diagram.jpg", full: "images/project-cooperative-housing/unit-axon-diagram.jpg" },
+      { thumb: "images/project-cooperative-housing/sections.jpg", full: "images/project-cooperative-housing/sections.jpg" },
+      { thumb: "images/project-cooperative-housing/elevations.jpg", full: "images/project-cooperative-housing/elevations.jpg" },
+      { thumb: "images/project-cooperative-housing/floor-plans-1.jpg", full: "images/project-cooperative-housing/floor-plans-1.jpg" },
+      { thumb: "images/project-cooperative-housing/floor-plans-2.jpg", full: "images/project-cooperative-housing/floor-plans-2.jpg" },
+      { thumb: "images/project-cooperative-housing/program-diagram.jpg", full: "images/project-cooperative-housing/program-diagram.jpg" },
+    ]
+  },
   { title: "Ascend", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-ascend/2expocityrender4.6.jpg", full: "images/project-ascend/2expocityrender4.6.jpg",
     series: [
       { thumb: "images/project-ascend/2expocityrender2.5.jpg", full: "images/project-ascend/2expocityrender2.5.jpg" },
