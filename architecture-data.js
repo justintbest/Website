@@ -51,24 +51,6 @@ window.GALLERY = [
       { thumb: "images/project-housing-for-barcelona/Communal Render Final.jpg", full: "images/project-housing-for-barcelona/Communal Render Final.jpg" },
     ]
   },
-  { title: "Porsche Headlight Study", project: "Architecture", category: "Speculative", cat: "speculative", year: "2026", thumb: "images/project-porsche-headlight-study/gray.jpg", full: "images/project-porsche-headlight-study/gray.jpg",
-    series: [
-      { thumb: "images/project-porsche-headlight-study/black.jpg", full: "images/project-porsche-headlight-study/black.jpg" },
-      { thumb: "images/project-porsche-headlight-study/red.jpg", full: "images/project-porsche-headlight-study/red.jpg" },
-    ]
-  },
-  { title: "Formula 1 Wind Tunnel", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-formula-1/Formula 1.jpg", full: "images/project-formula-1/Formula 1.jpg",
-    series: [
-      { thumb: "images/project-formula-1/Formula 2.jpg", full: "images/project-formula-1/Formula 2.jpg" },
-      { thumb: "images/project-formula-1/Formula 3.jpg", full: "images/project-formula-1/Formula 3.jpg" },
-      { thumb: "images/project-formula-1/Formula 4.jpg", full: "images/project-formula-1/Formula 4.jpg" },
-    ]
-  },
-  { title: "Urban Sketching in Europe", project: "Architecture", category: "Sketches", cat: "academic", year: "2026", thumb: "images/project-urban-sketching-europe/sketches-collection-2.png", full: "images/project-urban-sketching-europe/sketches-collection-2.png",
-    series: [
-      { thumb: "images/project-urban-sketching-europe/sketches-collection-1.png", full: "images/project-urban-sketching-europe/sketches-collection-1.png" },
-    ]
-  },
   { title: "Cooperative Housing", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-cooperative-housing/exterior-render-1.jpg", full: "images/project-cooperative-housing/exterior-render-1.jpg",
     desc: `
       <p class="lb-desc-credit">The formal strategy for this project sensitively takes into account the surrounding dense, yet open neighborhood fabric. The building is a multi-family cooperative home, and is comprised of a set of individual, yet connected, volumes that blend into their surrounding context.</p>
@@ -90,6 +72,24 @@ window.GALLERY = [
       { thumb: "images/project-ascend/2expocityrender2.5.jpg", full: "images/project-ascend/2expocityrender2.5.jpg" },
       { thumb: "images/project-ascend/exporender5.57.jpg", full: "images/project-ascend/exporender5.57.jpg" },
       { thumb: "images/project-ascend/exporender3.2.jpg", full: "images/project-ascend/exporender3.2.jpg" },
+    ]
+  },
+  { title: "Formula 1 Wind Tunnel", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-formula-1/Formula 1.jpg", full: "images/project-formula-1/Formula 1.jpg",
+    series: [
+      { thumb: "images/project-formula-1/Formula 2.jpg", full: "images/project-formula-1/Formula 2.jpg" },
+      { thumb: "images/project-formula-1/Formula 3.jpg", full: "images/project-formula-1/Formula 3.jpg" },
+      { thumb: "images/project-formula-1/Formula 4.jpg", full: "images/project-formula-1/Formula 4.jpg" },
+    ]
+  },
+  { title: "Porsche Headlight Study", project: "Architecture", category: "Speculative", cat: "speculative", year: "2026", thumb: "images/project-porsche-headlight-study/gray.jpg", full: "images/project-porsche-headlight-study/gray.jpg",
+    series: [
+      { thumb: "images/project-porsche-headlight-study/black.jpg", full: "images/project-porsche-headlight-study/black.jpg" },
+      { thumb: "images/project-porsche-headlight-study/red.jpg", full: "images/project-porsche-headlight-study/red.jpg" },
+    ]
+  },
+  { title: "Urban Sketching in Europe", project: "Architecture", category: "Sketches", cat: "academic", year: "2026", thumb: "images/project-urban-sketching-europe/sketches-collection-2.png", full: "images/project-urban-sketching-europe/sketches-collection-2.png",
+    series: [
+      { thumb: "images/project-urban-sketching-europe/sketches-collection-1.png", full: "images/project-urban-sketching-europe/sketches-collection-1.png" },
     ]
   },
 ];
