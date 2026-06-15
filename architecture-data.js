@@ -48,6 +48,11 @@ window.GALLERY = [
       { thumb: "images/project-formula-1/Formula 4.jpg", full: "images/project-formula-1/Formula 4.jpg" },
     ]
   },
+  { title: "Urban Sketching in Europe", project: "Architecture", category: "Sketches", cat: "speculative", year: "2026", thumb: "images/project-urban-sketching-europe/sketches-collection-1.png", full: "images/project-urban-sketching-europe/sketches-collection-1.png",
+    series: [
+      { thumb: "images/project-urban-sketching-europe/sketches-collection-2.png", full: "images/project-urban-sketching-europe/sketches-collection-2.png" },
+    ]
+  },
   { title: "Ascend", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-ascend/2expocityrender4.6.jpg", full: "images/project-ascend/2expocityrender4.6.jpg",
     series: [
       { thumb: "images/project-ascend/2expocityrender2.5.jpg", full: "images/project-ascend/2expocityrender2.5.jpg" },
