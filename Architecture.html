@@ -411,6 +411,13 @@
     background: var(--bg-2); border: 1px solid var(--line); overflow: hidden;
   }
   .lb-series-img img { width: 100%; height: auto; display: block; }
+  .lb-desc {
+    display: none; margin: 18px 0; padding-top: 18px; border-top: 1px solid var(--line);
+    max-width: 720px; font-size: 14px; line-height: 1.7; color: var(--fg-2);
+  }
+  .lb-desc.show { display: block; }
+  .lb-desc p { margin: 0 0 14px; }
+  .lb-desc .lb-desc-credit { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: var(--fg-3); text-transform: uppercase; }
   .lb-series.flow { display: block; column-count: 2; column-gap: 8px; }
   .lb-series.flow .lb-series-img { width: 100%; margin-bottom: 8px; break-inside: avoid; }
   .lb-series.flow .lb-series-img img { width: 100%; height: auto; }
@@ -595,6 +602,7 @@
     <div class="lb-stage">
       <span id="lbPh">Drop image</span>
     </div>
+    <div class="lb-desc" id="lbDesc"></div>
     <div class="lb-series" id="lbSeries"></div>
   </div>
 </div>
@@ -605,7 +613,7 @@
   const PIECES = (window.GALLERY || []).map(g => ({
     t: g.title, proj: g.project, med: g.category, year: g.year, cat: g.cat,
     img: g.thumb || g.full || '', full: g.full || g.thumb || '',
-    series: g.series || [], imgPos: g.imgPos || 'center'
+    series: g.series || [], imgPos: g.imgPos || 'center', desc: g.desc || ''
   }));
 
   const grid = document.getElementById('grid');
@@ -673,6 +681,16 @@
     }
     // Rebuild vertical series stack
     const series = document.getElementById('lbSeries');
+    // Description block
+    const desc = document.getElementById('lbDesc');
+    if (p.desc) {
+      desc.innerHTML = p.desc;
+      desc.classList.add('show');
+    } else {
+      desc.innerHTML = '';
+      desc.classList.remove('show');
+    }
+
     series.innerHTML = '';
     series.classList.toggle('flow', p.t === 'Rethinking Monolithic Architecture');
     if (p.series && p.series.length) {
