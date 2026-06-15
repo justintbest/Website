@@ -70,6 +70,10 @@ window.GALLERY = [
     ]
   },
   { title: "Cooperative Housing", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-cooperative-housing/exterior-render-1.jpg", full: "images/project-cooperative-housing/exterior-render-1.jpg",
+    desc: `
+      <p>The formal strategy for this project sensitively takes into account the surrounding dense, yet open neighborhood fabric. The building is a multi-family cooperative home, and is comprised of a set of individual, yet connected, volumes that blend into their surrounding context.</p>
+      <p>The project approaches the topic of health from the standpoint of healthy food consumption. Food insecurity is a prominent issue as this site is located in the inner city of Los Angeles. Not only do many people not have access to healthy food options, but many can not afford healthier food from grocery stores that do exist. With the project being situated adjacent to a large private university, this issue becomes worse. The project addresses this by growing fresh produce on the rooftop terraces and 2nd floor continuous gardens, and then selling this food along with others in the market on the ground floor for a low price. This is made possible as transportation costs are eliminated as well as a variety of other factors in the food distribution process. This model allows for the organic nutritious food to be sold at a lower cost, allowing those experiencing food insecurity to access it. The amount of green spaces and food growth on the site is also aimed to foster a culture that promotes healthy food consumption instead of fast food. Ideally, this culture would radiate from the building into the surrounding community.</p>
+    `,
     series: [
       { thumb: "images/project-cooperative-housing/exterior-render-2.jpg", full: "images/project-cooperative-housing/exterior-render-2.jpg" },
       { thumb: "images/project-cooperative-housing/site-plan.jpg", full: "images/project-cooperative-housing/site-plan.jpg" },
