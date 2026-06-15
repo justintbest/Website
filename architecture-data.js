@@ -22,20 +22,11 @@ window.GALLERY = [
       { thumb: "images/project-future-forensics/MATTER.jpg", full: "images/project-future-forensics/MATTER.jpg" },
     ]
   },
-  { title: "Rethinking Monolithic Architecture", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-rethinking-monolithic-architecture/model-expo-view-1.jpg", full: "images/project-rethinking-monolithic-architecture/model-expo-view-1.jpg",
-    desc: `
-      <p class="lb-desc-credit">Featured in the USC Architecture Blueprint Exhibition</p>
-      <p class="lb-desc-credit">Featured on Archinect: &ldquo;We Have To Get Much Better at Speaking To Wider and Wider Audiences: A Conversation With USC Architecture Dean Brett Steele&rdquo;</p>
-      <p>This project questions and reimagines the conventions of monolithic architecture. It prompts a paradigm shift &ndash; from the monolithic perceived externally to one that resonates internally. This reimagined monolith is visualized by pliable vellum materials pressing against the multifaceted recesses of a building, their inflated silhouettes emerging through gaps and crevices, each discrete component set apart yet bound by the unifying vellum. Centered on the design of the National Concert Hall, the project represents a novel design expedition. From a sprawling main concert hall with 1500 seats, an intimate hall for 500, to inviting lobbies and essential backstage facilities, the project serves as a narrative fusion of pragmatism and critical architectural endeavours.</p>
-      <p class="lb-desc-credit">Software: Rhinoceros, Houdini (Computational Design), Z-Brush, Adobe Illustrator, Adobe Photoshop, Blender (Rendering)</p>
-    `,
+  { title: "Formula 1 Wind Tunnel", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-formula-1/Formula 1.jpg", full: "images/project-formula-1/Formula 1.jpg",
     series: [
-      { thumb: "images/project-rethinking-monolithic-architecture/model-expo-view-2.jpg", full: "images/project-rethinking-monolithic-architecture/model-expo-view-2.jpg" },
-      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-1.png", full: "images/project-rethinking-monolithic-architecture/model-photo-1.png" },
-      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-2.png", full: "images/project-rethinking-monolithic-architecture/model-photo-2.png" },
-      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-3.png", full: "images/project-rethinking-monolithic-architecture/model-photo-3.png" },
-      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-4.png", full: "images/project-rethinking-monolithic-architecture/model-photo-4.png" },
-      { thumb: "images/project-rethinking-monolithic-architecture/model-pieces.jpg", full: "images/project-rethinking-monolithic-architecture/model-pieces.jpg" },
+      { thumb: "images/project-formula-1/Formula 2.jpg", full: "images/project-formula-1/Formula 2.jpg" },
+      { thumb: "images/project-formula-1/Formula 3.jpg", full: "images/project-formula-1/Formula 3.jpg" },
+      { thumb: "images/project-formula-1/Formula 4.jpg", full: "images/project-formula-1/Formula 4.jpg" },
     ]
   },
   { title: "The Monolith", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-the-monolith/Hero Image 1.jpg", full: "images/project-the-monolith/Hero Image 1.jpg",
@@ -74,11 +65,20 @@ window.GALLERY = [
       { thumb: "images/project-ascend/exporender3.2.jpg", full: "images/project-ascend/exporender3.2.jpg" },
     ]
   },
-  { title: "Formula 1 Wind Tunnel", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-formula-1/Formula 1.jpg", full: "images/project-formula-1/Formula 1.jpg",
+  { title: "Rethinking Monolithic Architecture", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-rethinking-monolithic-architecture/model-expo-view-1.jpg", full: "images/project-rethinking-monolithic-architecture/model-expo-view-1.jpg",
+    desc: `
+      <p class="lb-desc-credit">Featured in the USC Architecture Blueprint Exhibition</p>
+      <p class="lb-desc-credit">Featured on Archinect: &ldquo;We Have To Get Much Better at Speaking To Wider and Wider Audiences: A Conversation With USC Architecture Dean Brett Steele&rdquo;</p>
+      <p>This project questions and reimagines the conventions of monolithic architecture. It prompts a paradigm shift &ndash; from the monolithic perceived externally to one that resonates internally. This reimagined monolith is visualized by pliable vellum materials pressing against the multifaceted recesses of a building, their inflated silhouettes emerging through gaps and crevices, each discrete component set apart yet bound by the unifying vellum. Centered on the design of the National Concert Hall, the project represents a novel design expedition. From a sprawling main concert hall with 1500 seats, an intimate hall for 500, to inviting lobbies and essential backstage facilities, the project serves as a narrative fusion of pragmatism and critical architectural endeavours.</p>
+      <p class="lb-desc-credit">Software: Rhinoceros, Houdini (Computational Design), Z-Brush, Adobe Illustrator, Adobe Photoshop, Blender (Rendering)</p>
+    `,
     series: [
-      { thumb: "images/project-formula-1/Formula 2.jpg", full: "images/project-formula-1/Formula 2.jpg" },
-      { thumb: "images/project-formula-1/Formula 3.jpg", full: "images/project-formula-1/Formula 3.jpg" },
-      { thumb: "images/project-formula-1/Formula 4.jpg", full: "images/project-formula-1/Formula 4.jpg" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-expo-view-2.jpg", full: "images/project-rethinking-monolithic-architecture/model-expo-view-2.jpg" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-1.png", full: "images/project-rethinking-monolithic-architecture/model-photo-1.png" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-2.png", full: "images/project-rethinking-monolithic-architecture/model-photo-2.png" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-3.png", full: "images/project-rethinking-monolithic-architecture/model-photo-3.png" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-4.png", full: "images/project-rethinking-monolithic-architecture/model-photo-4.png" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-pieces.jpg", full: "images/project-rethinking-monolithic-architecture/model-pieces.jpg" },
     ]
   },
   { title: "Porsche Headlight Study", project: "Architecture", category: "Speculative", cat: "speculative", year: "2026", thumb: "images/project-porsche-headlight-study/gray.jpg", full: "images/project-porsche-headlight-study/gray.jpg",
