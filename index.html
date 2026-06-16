@@ -812,15 +812,7 @@
 <script>
   (function(){
     var cover = document.getElementById('page-cover');
-    requestAnimationFrame(function(){ requestAnimationFrame(function(){ cover.style.opacity = '0'; }); });
-    document.addEventListener('click', function(e){
-      var a = e.target.closest('a');
-      if (!a || !a.href || a.target === '_blank' || a.href.startsWith('mailto:') || a.href.startsWith('#') || a.getAttribute('onclick')) return;
-      e.preventDefault();
-      var href = a.href;
-      cover.style.opacity = '1';
-      setTimeout(function(){ window.location = href; }, 400);
-    });
+    cover.style.opacity = '0';
   })();
 </script>
 
