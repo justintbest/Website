@@ -533,7 +533,22 @@
 </head>
 <body>
 <div id="page-cover" style="position:fixed;inset:0;background:#000;z-index:9999;pointer-events:none;transition:opacity 0.7s ease;opacity:1;"></div>
-<script>setTimeout(function(){document.getElementById("page-cover").style.opacity="0";},30);</script>
+<script>
+  (function(){
+    var cover = document.getElementById('page-cover');
+    function fadeIn(){ cover.style.opacity = '0'; }
+    window.addEventListener('load', function(){
+      var firstImg = document.querySelector('.hero-show img');
+      if (firstImg && !firstImg.complete) {
+        firstImg.addEventListener('load', fadeIn);
+        firstImg.addEventListener('error', fadeIn);
+        setTimeout(fadeIn, 1500); // fallback
+      } else {
+        setTimeout(fadeIn, 80);
+      }
+    });
+  })();
+</script>
 
 <header>
   <div class="wrap nav">
