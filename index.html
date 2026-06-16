@@ -511,6 +511,8 @@
 </style>
 </head>
 <body>
+<div id="page-cover" style="position:fixed;inset:0;background:#000;z-index:9999;pointer-events:none;transition:opacity 0.7s ease;opacity:1;"></div>
+<script>setTimeout(function(){document.getElementById("page-cover").style.opacity="0";},30);</script>
 
 <header>
   <div class="wrap nav">
@@ -808,15 +810,6 @@
   })();
 </script>
 
-<div id="page-cover" style="position:fixed;inset:0;background:#000;z-index:9999;pointer-events:none;transition:opacity 0.7s ease;opacity:1;"></div>
-<script>
-  (function(){
-    var cover = document.getElementById('page-cover');
-    window.addEventListener('load', function(){
-      setTimeout(function(){ cover.style.opacity = '0'; }, 50);
-    });
-  })();
-</script>
 
 </body>
 </html>
