@@ -87,9 +87,9 @@ window.GALLERY = [
       { thumb: "images/project-porsche-headlight-study/red.jpg", full: "images/project-porsche-headlight-study/red.jpg" },
     ]
   },
-  { title: "Urban Sketching in Europe", project: "Architecture", category: "Sketches", cat: "academic", year: "2026", thumb: "images/project-urban-sketching-europe/sketches-collection-2.png", full: "images/project-urban-sketching-europe/sketches-collection-2.png",
+  { title: "Urban Sketching in Europe", project: "Architecture", category: "Sketches", cat: "academic", year: "2026", thumb: "images/project-urban-sketching-europe/sketches-collection-2.jpg", full: "images/project-urban-sketching-europe/sketches-collection-2.jpg",
     series: [
-      { thumb: "images/project-urban-sketching-europe/sketches-collection-1.png", full: "images/project-urban-sketching-europe/sketches-collection-1.png" },
+      { thumb: "images/project-urban-sketching-europe/sketches-collection-1.jpg", full: "images/project-urban-sketching-europe/sketches-collection-1.jpg" },
     ]
   },
 ];
