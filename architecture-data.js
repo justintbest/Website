@@ -74,10 +74,10 @@ window.GALLERY = [
     `,
     series: [
       { thumb: "images/project-rethinking-monolithic-architecture/model-expo-view-2.jpg", full: "images/project-rethinking-monolithic-architecture/model-expo-view-2.jpg" },
-      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-1.png", full: "images/project-rethinking-monolithic-architecture/model-photo-1.png" },
-      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-2.png", full: "images/project-rethinking-monolithic-architecture/model-photo-2.png" },
-      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-3.png", full: "images/project-rethinking-monolithic-architecture/model-photo-3.png" },
-      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-4.png", full: "images/project-rethinking-monolithic-architecture/model-photo-4.png" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-1.jpg", full: "images/project-rethinking-monolithic-architecture/model-photo-1.jpg" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-2.jpg", full: "images/project-rethinking-monolithic-architecture/model-photo-2.jpg" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-3.jpg", full: "images/project-rethinking-monolithic-architecture/model-photo-3.jpg" },
+      { thumb: "images/project-rethinking-monolithic-architecture/model-photo-4.jpg", full: "images/project-rethinking-monolithic-architecture/model-photo-4.jpg" },
       { thumb: "images/project-rethinking-monolithic-architecture/model-pieces.jpg", full: "images/project-rethinking-monolithic-architecture/model-pieces.jpg" },
     ]
   },
