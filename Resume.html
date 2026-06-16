@@ -173,6 +173,16 @@
     padding-left: 16px;
   }
   .lead { font-size: clamp(19px, 2vw, 26px) !important; color: var(--fg) !important; line-height: 1.45; letter-spacing: -0.01em; }
+  .entry { margin-bottom: 22px; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 6px; }
+  .entry-title { font-size: 15px; font-weight: 600; color: var(--fg); }
+  .entry-date { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: var(--fg-3); white-space: nowrap; }
+  .entry ul { margin: 0; padding-left: 18px; }
+  .entry ul li { font-size: 14px; color: var(--fg-2); line-height: 1.65; margin-bottom: 4px; }
+  .entry p { font-size: 14px; color: var(--fg-2); margin: 4px 0 0; }
+  .skills-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+  .skills-grid span { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: var(--fg-2); border: 1px solid var(--line); padding: 5px 10px; }
 
   @media (max-width: 880px) {
     .resume-top { grid-template-columns: 1fr; align-items: start; }
@@ -314,35 +324,120 @@
     </div>
   </section>
 
-  <!-- BODY: editable text. Replace the placeholder lines below with your own copy. -->
   <section class="wrap resume-body" style="display:block;">
     <div class="row">
       <h2>Profile</h2>
       <div class="content">
-        <p class="lead" contenteditable="true">Add a short summary here — who you are, what you make, and what you're looking for.</p>
+        <p class="lead">I am a concept artist and architectural designer from Los Angeles, graduating from the University of Southern California School of Architecture. As a passionate designer and storyteller, I value architecture and concept art as gifts that allow me to express myself creatively — shaping narratives for audiences while generously serving my community. I am a lifelong learner, always eager to acquire new techniques and skills. I look forward to using these design skills to shape human behavior and interactions, and craft compelling worlds, in positive, meaningful ways.</p>
       </div>
     </div>
 
     <div class="row">
       <h2>Experience</h2>
       <div class="content">
-        <p class="placeholder-text" contenteditable="true">Add your roles, studios, and dates here. Click to edit this text.</p>
-      </div>
-    </div>
 
-    <div class="row">
-      <h2>Skills</h2>
-      <div class="content">
-        <p class="placeholder-text" contenteditable="true">List your tools, mediums, and specialties here.</p>
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">Gensler — Architectural Intern, Sports</span>
+            <span class="entry-date">Jun 2023 – Aug 2023</span>
+          </div>
+          <ul>
+            <li>Was integrated throughout different phases of design, primarily SD and CD phases</li>
+            <li>Developed client presentation decks containing diagrams, renderings, and area calculation charts</li>
+            <li>Created and developed site models and designed project components</li>
+            <li>Projects: Denver Broncos Training Facility, FAU BPF + Arena Renovation, Los Angeles Chargers Training Facility</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">Skidmore, Owings &amp; Merrill (SOM) — Shadowship</span>
+            <span class="entry-date">Jan 2023</span>
+          </div>
+          <ul>
+            <li>Honed presentation skills</li>
+            <li>Took part in site visits</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">Gensler — Architectural Intern, Mixed Use/Retail</span>
+            <span class="entry-date">Jun 2022 – Aug 2022</span>
+          </div>
+          <ul>
+            <li>Took part in the creation of drawings throughout different phases of design, primarily DD phase</li>
+            <li>Created and updated presentation decks for frequent client and consultant meetings</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">NOMA — Summer Program Intern</span>
+            <span class="entry-date">Jun 2021 – Aug 2021</span>
+          </div>
+          <ul>
+            <li>Taught classes for high-school students interested in architecture and aided them in the creation of a design project</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">Belmar History + Art (BH+A) — Designer</span>
+            <span class="entry-date"></span>
+          </div>
+          <ul>
+            <li>Created designs for an art and history project commissioned by the City of Santa Monica, consisting of a permanent art installation accompanying the grand opening of a new sports facility</li>
+            <li>This project commemorated and celebrated the history of thriving African American communities that were displaced in Santa Monica</li>
+          </ul>
+        </div>
+
       </div>
     </div>
 
     <div class="row">
       <h2>Education</h2>
       <div class="content">
-        <p class="placeholder-text" contenteditable="true">Add your training and education here.</p>
+
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">University of Southern California — Bachelor of Architecture</span>
+            <span class="entry-date">2020 – 2025</span>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">La Salle (ETSALS) – Ramon Llull University</span>
+            <span class="entry-date">Spring 2024</span>
+          </div>
+          <p>USC School of Architecture Mediterranean (MED) Study Abroad Program</p>
+        </div>
+
       </div>
     </div>
+
+    <div class="row">
+      <h2>Awards</h2>
+      <div class="content">
+        <div class="entry"><div class="entry-head"><span class="entry-title">2022 SoCal NOMA Project of the Year Award</span></div></div>
+        <div class="entry"><div class="entry-head"><span class="entry-title">Thom Mayne Full Study Abroad Scholarship</span></div></div>
+        <div class="entry"><div class="entry-head"><span class="entry-title">USC Tau Sigma Delta: Honor Society for Architecture</span><span class="entry-date">Mar 2020 – Feb 2021</span></div></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <h2>Skills</h2>
+      <div class="content">
+        <div class="skills-grid">
+          <span>Rhinoceros</span><span>Revit</span><span>Enscape</span><span>AutoCAD</span>
+          <span>SketchUp</span><span>Grasshopper</span><span>Ladybug</span><span>Houdini</span>
+          <span>Adobe Photoshop</span><span>Adobe Illustrator</span><span>Adobe InDesign</span>
+          <span>V-Ray</span><span>Blender</span>
+        </div>
+      </div>
+    </div>
+
   </section>
 </main>
 
