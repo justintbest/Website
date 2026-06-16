@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SLEEK — Architecture</title>
+<link rel="preload" as="image" href="images/project-future-forensics/Image0207.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -809,7 +810,7 @@
         slide.className = 'slide' + (i === 0 ? ' is-active' : '');
         const isImage = /\.(jpe?g|png|webp|gif|avif)$/i.test(src) || src.includes('/');
         slide.innerHTML = isImage
-          ? `<img class="hph" src="${src}" alt="" style="object-position:${pos}">`
+          ? `<img class="hph" src="${src}" alt="" style="object-position:${pos}"${i > 0 ? ' loading="lazy"' : ''}>`
           : `<div class="ph"><span>${src}</span></div>`;
         wrap.appendChild(slide);
       });
