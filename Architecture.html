@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SLEEK — Architecture</title>
-<link rel="preload" as="image" href="images/project-future-forensics/Image0207.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -534,22 +533,7 @@
 </head>
 <body>
 <div id="page-cover" style="position:fixed;inset:0;background:#000;z-index:9999;pointer-events:none;transition:opacity 0.7s ease;opacity:1;"></div>
-<script>
-  (function(){
-    var cover = document.getElementById('page-cover');
-    function fadeIn(){ cover.style.opacity = '0'; }
-    window.addEventListener('load', function(){
-      var firstImg = document.querySelector('.hero-show img');
-      if (firstImg && !firstImg.complete) {
-        firstImg.addEventListener('load', fadeIn);
-        firstImg.addEventListener('error', fadeIn);
-        setTimeout(fadeIn, 1500); // fallback
-      } else {
-        setTimeout(fadeIn, 80);
-      }
-    });
-  })();
-</script>
+<script>setTimeout(function(){document.getElementById("page-cover").style.opacity="0";},30);</script>
 
 <header>
   <div class="wrap nav">
