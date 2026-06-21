@@ -245,9 +245,9 @@
     .wrap { padding-left: 16px; padding-right: 16px; }
     .wrap.nav { padding-left: 0; padding-right: 0; }
 
-    /* Resume top — stack portrait above intro */
-    .resume-top { grid-template-columns: 1fr; padding-top: 32px; }
-    .portrait { max-width: 100%; aspect-ratio: 3/2; }
+    /* Resume top — portrait cropped to the left, intro wraps to its right */
+    .resume-top { grid-template-columns: 132px 1fr; align-items: start; gap: 16px; padding-top: 32px; }
+    .portrait { max-width: 100%; aspect-ratio: 3/4; }
 
     /* Resume body — single column */
     .resume-body { display: block; }
@@ -255,7 +255,9 @@
     .row > h2 { margin-bottom: 10px; }
 
     /* Name size */
-    .intro h1 { font-size: clamp(36px, 12vw, 60px); }
+    .intro h1 { font-size: clamp(26px, 9vw, 60px); }
+    .intro .role { margin-top: 10px; font-size: 13px; }
+    .intro .meta { margin-top: 14px; gap: 14px; font-size: 13px; }
   }
 </style>
 </head>
