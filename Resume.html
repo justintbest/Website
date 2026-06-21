@@ -184,6 +184,7 @@
   .skills-grid { display: flex; flex-wrap: wrap; gap: 8px; }
   .skills-grid span { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: var(--fg-2); border: 1px solid var(--line); padding: 5px 10px; display: inline-flex; align-items: center; gap: 7px; }
   .skills-grid span img { width: 13px; height: 13px; filter: brightness(0) invert(1); }
+  .skills-grid span img.native { filter: none; }
 
   @media (max-width: 880px) {
     .resume-top { grid-template-columns: 1fr; align-items: start; }
@@ -444,7 +445,7 @@
         <div class="skills-grid">
           <span><img src="images/icons/rhino.svg" alt="">Rhinoceros</span><span><img src="images/icons/revit.svg" alt="">Revit</span><span>Enscape</span><span><img src="images/icons/autocad.svg" alt="">AutoCAD</span>
           <span><img src="images/icons/sketchup.svg" alt="">SketchUp</span><span>Grasshopper</span><span>Ladybug</span><span><img src="images/icons/houdini.svg" alt="">Houdini</span>
-          <span>Adobe Photoshop</span><span>Adobe Illustrator</span><span>Adobe InDesign</span>
+          <span><img class="native" src="images/icons/photoshop.svg" alt="">Adobe Photoshop</span><span>Adobe Illustrator</span><span>Adobe InDesign</span>
           <span>V-Ray</span><span><img src="images/icons/blender.svg" alt="">Blender</span>
         </div>
       </div>
