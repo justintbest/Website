@@ -66,7 +66,6 @@ window.GALLERY = [
     series: [
       { thumb: "images/project-mesozoic/CutsheetPS5 LR.jpg", full: "images/project-mesozoic/CutsheetPS5 LR.jpg" },
       { thumb: "images/project-mesozoic/CutsheetPS6.jpg", full: "images/project-mesozoic/CutsheetPS6.jpg" },
-      { thumb: "images/project-mesozoic/CutsheetPS2 LR.jpg", full: "images/project-mesozoic/CutsheetPS2 LR.jpg" },
       { thumb: "images/project-mesozoic/CutsheetPS3 LR.jpg", full: "images/project-mesozoic/CutsheetPS3 LR.jpg" },
     ]
   },
