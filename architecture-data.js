@@ -16,12 +16,11 @@ window.HERO_SLIDES = [
 
 window.GALLERY = [
   { title: "Future Forensics", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-future-forensics/Image0207.jpg", full: "images/project-future-forensics/Image0207.jpg",
-    desc: `<div style="position:relative;width:100%;aspect-ratio:16/9"><iframe src="https://www.youtube.com/embed/vlFUZZOx3As?rel=0&modestbranding=1&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe></div>
-<details class="essay-drop">
-<summary>Read the Essay</summary>
+    top: `<details class="essay-drop">
+<summary>Read the Essay — Future Forensics</summary>
 <div class="essay-body">
 
-<p><em>Arch 501: Critical Topics in Architecture</em> &mdash; Eric Haas &mdash; December 16, 2024</p>
+<p><strong>Future Forensics</strong></p>
 
 <p>Architecture has long operated under the fiction of the diagram: a pristine, utopian vision of space within a flawed and unpredictable world. Perfect diagrams, renderings, and drawings portray architecture as a benign technology, impervious to the chaotic forces that shape human experience. These idealized visualizations promise comfort and freedom, serving as both a solution to and an escape from the forces that erode our domesticity. Yet, the translation of these diagrams into built form reveals a truth: architecture cannot guarantee an exercise of this freedom. Buildings are ultimately imperfect when confronted with the messy realities of human life. The blind reliance on these &ldquo;perfect diagrams&rdquo; ignores the dynamic, often oppressive systems that intersect with architecture. For those living within these spaces, the promise of liberation can instead become an experience of marginalization and harm. The COVID-19 pandemic starkly illuminated this disjunction. An unanticipated global event, this pandemic exposed architecture&rsquo;s inability to accommodate the biopolitical and social systems it inadvertently supports. The home, envisioned as a vessel of comfort, became a site for surveillance and control as state biopolitical mechanisms extended into private life. Technologies such as geofencing, AI facial recognition, and forced spatial reorganization redefined domestic architecture, subverting its intended autonomy and transforming it into a tool of systemic governance.</p>
 
@@ -96,6 +95,7 @@ window.GALLERY = [
 
 </div>
 </details>`,
+    desc: `<div style="position:relative;width:100%;aspect-ratio:16/9"><iframe src="https://www.youtube.com/embed/vlFUZZOx3As?rel=0&modestbranding=1&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe></div>`,
     series: [
       { thumb: "images/project-future-forensics/SITE.jpg", full: "images/project-future-forensics/SITE.jpg" },
       { thumb: "images/project-future-forensics/PROGRAM.jpg", full: "images/project-future-forensics/PROGRAM.jpg" },
