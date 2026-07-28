@@ -673,7 +673,7 @@
   const PIECES = (window.GALLERY || []).map(g => ({
     t: g.title, proj: g.project, med: g.category, year: g.year, cat: g.cat,
     img: g.thumb || g.full || '', full: g.full || g.thumb || '',
-    series: g.series || [], imgPos: g.imgPos || 'center', desc: g.desc || ''
+    series: g.series || [], imgPos: g.imgPos || 'center', desc: g.desc || '', top: g.top || ''
   }));
 
   const grid = document.getElementById('grid');
