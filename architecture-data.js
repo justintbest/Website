@@ -94,6 +94,8 @@ window.GALLERY = [
 </div>
 
 </div>
+<button onclick="this.closest('details').removeAttribute('open')" style="display:block;width:100%;background:none;border:none;border-top:1px solid #C5D7C1;color:#C5D7C1;font-family:var(--mono);font-size:16px;padding:12px;cursor:pointer;text-align:center;letter-spacing:0.1em;">−</button>
+</div>
 </details>`,
     desc: `<div style="position:relative;width:100%;aspect-ratio:16/9"><iframe src="https://www.youtube.com/embed/vlFUZZOx3As?rel=0&modestbranding=1&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe></div>`,
     series: [
