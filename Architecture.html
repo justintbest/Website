@@ -428,6 +428,36 @@
   .lb-desc.show { display: block; }
   .lb-desc p { margin: 0 0 14px; }
   .lb-desc .lb-desc-credit { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: var(--fg-3); text-transform: uppercase; }
+
+  /* Essay dropdown */
+  .essay-drop { margin-top: 20px; border: 1px solid var(--line); }
+  .essay-drop summary {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--fg-3); padding: 12px 16px; cursor: pointer; list-style: none;
+    display: flex; align-items: center; justify-content: space-between;
+    transition: color 0.2s;
+  }
+  .essay-drop summary::-webkit-details-marker { display: none; }
+  .essay-drop summary::after { content: '+'; font-size: 16px; line-height: 1; }
+  .essay-drop[open] summary::after { content: '−'; }
+  .essay-drop summary:hover { color: var(--fg); }
+  .essay-body {
+    padding: 28px 24px 32px; border-top: 1px solid var(--line);
+    font-size: 15px; line-height: 1.8; color: var(--fg-2);
+  }
+  .essay-body h2 { font-size: 13px; font-family: var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--fg-3); font-weight: 400; margin: 36px 0 14px; }
+  .essay-body h2:first-child { margin-top: 0; }
+  .essay-body p { margin: 0 0 16px; max-width: 72ch; }
+  .essay-body blockquote { border-left: 2px solid var(--accent); margin: 20px 0; padding: 4px 0 4px 20px; color: var(--fg-3); font-style: italic; }
+  .essay-body blockquote p { margin-bottom: 0; }
+  .essay-body hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
+  .essay-body sup { font-size: 10px; color: var(--accent); vertical-align: super; line-height: 0; }
+  .essay-body .essay-footnotes { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .essay-body .essay-footnotes h2 { margin-top: 0; }
+  .essay-body .essay-footnotes ol { padding-left: 20px; margin: 0; }
+  .essay-body .essay-footnotes li { font-size: 12px; color: var(--fg-3); line-height: 1.6; margin-bottom: 8px; }
+  .essay-body .essay-bibliography { margin-top: 24px; }
+  .essay-body .essay-bibliography p { font-size: 12px; color: var(--fg-3); margin-bottom: 8px; }
   .lb-series.flow { display: block; column-count: 2; column-gap: 8px; }
   .lb-series.flow .lb-series-img { width: 100%; margin-bottom: 8px; break-inside: avoid; }
   .lb-series.flow .lb-series-img.wide { column-span: all; }
