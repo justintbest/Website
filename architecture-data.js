@@ -16,6 +16,7 @@ window.HERO_SLIDES = [
 
 window.GALLERY = [
   { title: "Future Forensics", project: "Architecture", category: "Academic", cat: "academic", year: "2026", thumb: "images/project-future-forensics/Image0207.jpg", full: "images/project-future-forensics/Image0207.jpg",
+    desc: `<div style="position:relative;width:100%;aspect-ratio:16/9"><iframe src="https://www.youtube.com/embed/vlFUZZOx3As?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe></div>`,
     series: [
       { thumb: "images/project-future-forensics/SITE.jpg", full: "images/project-future-forensics/SITE.jpg" },
       { thumb: "images/project-future-forensics/PROGRAM.jpg", full: "images/project-future-forensics/PROGRAM.jpg" },
