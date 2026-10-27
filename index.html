@@ -628,7 +628,7 @@
       const card = document.createElement('div');
       card.className = 'card' + (p.size ? ' ' + p.size : '');
       card.innerHTML = `
-        ${p.img ? `<img class="cimg" src="${p.img}" alt="${p.t}" loading="lazy" style="object-position:${p.imgPos}">` : `<div class="ph"><span>${p.med} — drop image</span></div>`}
+        ${p.img ? `<img class="cimg" src="${p.img}" alt="${p.t}" loading="lazy" style="object-position:${p.imgPos}">` : `<div class="ph"></div>`}
         <div class="scrim"></div>
         <div class="info">
           <div class="t">${p.t}</div>
@@ -678,8 +678,7 @@
       ph.style.display = 'none';
     } else {
       if (lbImg) lbImg.style.display = 'none';
-      ph.style.display = '';
-      ph.textContent = p.med + ' — drop image';
+      ph.style.display = 'none';
     }
     // Rebuild vertical series stack
     const series = document.getElementById('lbSeries');
