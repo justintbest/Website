@@ -558,7 +558,10 @@
   <!-- GALLERY -->
   <section class="wrap" id="work" style="padding-top: clamp(20px, 2.5vw, 32px);">
     <div class="gallery-head">
-      <h2>All</h2>
+      <div class="filters" style="padding-left:10px;">
+        <button class="filter active" data-f="all">Concept</button>
+        <button class="filter" data-f="sketch">Sketches</button>
+      </div>
     </div>
     <div class="grid" id="grid"></div>
   </section>
@@ -707,6 +710,7 @@
   });
 
   render('all');
+  document.querySelector('.filter[data-f="all"]').classList.add('active');
 
   /* ---- Burger menu ---- */
   const burger = document.getElementById('burger');
