@@ -681,12 +681,12 @@
 
   function render(filter) {
     grid.innerHTML = '';
-    visible = PIECES.filter(p => filter === 'all' || p.cat === filter);
+    visible = PIECES.filter(p => (filter === 'all' || p.cat === filter) && p.img);
     visible.forEach((p, i) => {
       const card = document.createElement('div');
       card.className = 'card' + (p.size ? ' ' + p.size : '');
       card.innerHTML = `
-        ${p.img ? `<img class="cimg" src="${p.img}" alt="${p.t}" loading="lazy" style="object-position:${p.imgPos}">` : `<div class="ph"></div>`}
+        <img class="cimg" src="${p.img}" alt="${p.t}" loading="lazy" style="object-position:${p.imgPos}">
         <div class="scrim"></div>
         <div class="info">
           <div class="t">${p.t}</div>
