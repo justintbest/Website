@@ -7,7 +7,7 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg:        oklch(0.155 0.006 265);
@@ -428,12 +428,13 @@
 
   @media (max-width: 880px) {
     header { position: fixed; width: 100%; }
+    .nav { align-items: flex-start; padding-top: 14px; height: auto; padding-bottom: 10px; }
     .grid { grid-template-columns: repeat(2, 1fr); }
     .card, .card.wide, .card.tall, .card.feature { grid-column: span 1; aspect-ratio: 16/9; }
     .nav-links { display: none; }
     .nav-social { display: none; }
     .brand-wrap { display: flex; flex-direction: column; align-items: flex-start; }
-    .brand-mobile-sub { display: block; font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: 0.06em; color: var(--fg); padding-left: 13px; margin-top: 2px; }
+    .brand-mobile-sub { display: block; font-family: 'Barlow Condensed', var(--sans); font-size: 13px; font-weight: 600; letter-spacing: 0.04em; color: var(--fg); padding-left: 13px; margin-top: 2px; }
     .brand-social { display: flex; align-items: center; gap: 14px; padding-left: 13px; margin-top: 6px; }
     .hero-sub { flex-direction: column; align-items: flex-start; }
   }
