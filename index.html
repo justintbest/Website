@@ -109,6 +109,7 @@
     transition: color 0.25s;
   }
   .nav-links > a:hover { color: var(--fg); }
+  .nav-links > a[aria-current="page"] { color: var(--fg); text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1px; }
   .nav-social { display: flex; align-items: center; gap: 16px; padding-left: 6px; margin-left: auto; }
   .social-ico {
     display: inline-flex;
@@ -522,7 +523,7 @@
       <span class="byline">CONCEPT ART &amp; ARCHITECTURE</span>
     </a>
     <nav class="nav-links">
-      <a href="#" onclick="event.preventDefault()">Concept Art</a>
+      <a href="#" onclick="event.preventDefault()" aria-current="page">Concept Art</a>
       <a href="Architecture.html">Architecture</a>
       <a href="Resume.html">Resume</a>
     </nav>
