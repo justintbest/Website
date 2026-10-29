@@ -707,6 +707,13 @@
     series.innerHTML = '';
     if (p.series && p.series.length) {
       p.series.forEach(s => {
+        if (s.label) {
+          const lbl = document.createElement('p');
+          lbl.className = 'lb-desc-credit';
+          lbl.style.textAlign = 'center';
+          lbl.textContent = s.label;
+          series.appendChild(lbl);
+        }
         const wrap = document.createElement('div');
         wrap.className = 'lb-series-img';
         if (s.full || s.thumb) wrap.innerHTML = `<img src="${s.full || s.thumb}" alt="" loading="lazy">`;
