@@ -64,7 +64,7 @@ window.GALLERY = [
       { thumb: "images/project-inaugura/Cutsheet LR.jpg", full: "images/project-inaugura/Cutsheet LR.jpg", label: "Architectural Callouts" },
     ]
   },
-  { title: "View from the Moorish Villa", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg", full: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg",
+  { title: "View from the Moorish Villa", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", software: "Blender, 3DCoat &amp; Photoshop", thumb: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg", full: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg",
     heroLabel: "Final",
     series: [
       { thumb: "images/project-moorish-villa/Alh Assets LR.jpg", full: "images/project-moorish-villa/Alh Assets LR.jpg", label: "Architectural Callouts" },
