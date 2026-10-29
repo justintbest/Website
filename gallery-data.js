@@ -50,13 +50,6 @@ window.HERO_SLIDES = [
                 If you omit "full", the thumb image is used.
 ---------------------------------------------------------------------------- */
 window.GALLERY = [
-  { title: "View from the Moorish Villa", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg", full: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg",
-    heroLabel: "Final",
-    series: [
-      { thumb: "images/project-moorish-villa/Alh Assets LR.jpg", full: "images/project-moorish-villa/Alh Assets LR.jpg", label: "Architectural Callouts" },
-      { thumb: "images/project-moorish-villa/Sneak Peak BW LR.jpg", full: "images/project-moorish-villa/Sneak Peak BW LR.jpg", label: "Architecture Closeup" },
-    ]
-  },
   { title: "Atrium", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-atrium/Star Citizen LobbyOutLR.jpg", full: "images/project-atrium/Star Citizen LobbyOutLR.jpg",
     heroLabel: "Final",
     series: [
@@ -66,6 +59,13 @@ window.GALLERY = [
   { title: "PS Inaugura", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg", full: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg",
     series: [
       { thumb: "images/project-inaugura/Cutsheet LR.jpg", full: "images/project-inaugura/Cutsheet LR.jpg" },
+    ]
+  },
+  { title: "View from the Moorish Villa", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg", full: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg",
+    heroLabel: "Final",
+    series: [
+      { thumb: "images/project-moorish-villa/Alh Assets LR.jpg", full: "images/project-moorish-villa/Alh Assets LR.jpg", label: "Architectural Callouts" },
+      { thumb: "images/project-moorish-villa/Sneak Peak BW LR.jpg", full: "images/project-moorish-villa/Sneak Peak BW LR.jpg", label: "Architecture Closeup" },
     ]
   },
   { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg",
