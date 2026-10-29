@@ -100,6 +100,11 @@ window.GALLERY = [
     ]
   },
   { title: "Dual Wielded", project: "Futurist", category: "Character", cat: "sketch", year: "2026", thumb: "images/project-dualwielded/Dual Weild4.png", full: "images/project-dualwielded/Dual Weild4.png", imgPos: "center -40px" },
+  { title: "Sketch 1", project: "Futurist", category: "Sketch", cat: "sketch", year: "2026", thumb: "images/project-sketches/IMG_4967 LR.jpg", full: "images/project-sketches/IMG_4967 LR.jpg" },
+  { title: "Sketch 2", project: "Futurist", category: "Sketch", cat: "sketch", year: "2026", thumb: "images/project-sketches/KIC_Document_0001 (9) LR.jpg", full: "images/project-sketches/KIC_Document_0001 (9) LR.jpg" },
+  { title: "Sketch 3", project: "Futurist", category: "Sketch", cat: "sketch", year: "2026", thumb: "images/project-sketches/Untitled_Artwork (18) LR.jpg", full: "images/project-sketches/Untitled_Artwork (18) LR.jpg" },
+  { title: "Sketch 4", project: "Futurist", category: "Sketch", cat: "sketch", year: "2026", thumb: "images/project-sketches/Untitled_Artwork 76 LR.jpg", full: "images/project-sketches/Untitled_Artwork 76 LR.jpg" },
+  { title: "Sketch 5", project: "Futurist", category: "Sketch", cat: "sketch", year: "2026", thumb: "images/project-sketches/Untitled_Artworkple - Copy LR.jpg", full: "images/project-sketches/Untitled_Artworkple - Copy LR.jpg" },
   { title: "Drowned Cathedral", project: "Project Tidewall", category: "Environment", cat: "env", year: "2025" },
   { title: "Hauler Class-VII",  project: "Orbital",          category: "Vehicle",     cat: "veh", year: "2025" },
   { title: "Ash Pilgrim",       project: "Emberfall",        category: "Character",   cat: "char", year: "2024" },
