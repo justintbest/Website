@@ -68,6 +68,13 @@ window.GALLERY = [
       { thumb: "images/project-moorish-villa/Sneak Peak BW LR.jpg", full: "images/project-moorish-villa/Sneak Peak BW LR.jpg", label: "Architecture Closeup" },
     ]
   },
+  { title: "Scanner", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-scanner/Half Aerial LR.jpg", full: "images/project-scanner/Half Aerial LR.jpg",
+    series: [
+      { thumb: "images/project-scanner/Overhead LR.jpg", full: "images/project-scanner/Overhead LR.jpg" },
+      { thumb: "images/project-scanner/Rim ShotLR.jpg", full: "images/project-scanner/Rim ShotLR.jpg" },
+      { thumb: "images/project-scanner/Scanner Info Sheet LR.jpg", full: "images/project-scanner/Scanner Info Sheet LR.jpg" },
+    ]
+  },
   { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg",
     series: [
       { thumb: "images/project-paris-reimagined/Prop Design.jpg", full: "images/project-paris-reimagined/Prop Design.jpg" },
@@ -85,13 +92,6 @@ window.GALLERY = [
   { title: "Archives", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-archives/Archives Final LR.jpg", full: "images/project-archives/Archives Final LR.jpg",
     series: [
       { thumb: "images/project-archives/Archives Cutsheet LR.jpg?v=3", full: "images/project-archives/Archives Cutsheet LR.jpg?v=3" },
-    ]
-  },
-  { title: "Scanner", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-scanner/Half Aerial LR.jpg", full: "images/project-scanner/Half Aerial LR.jpg",
-    series: [
-      { thumb: "images/project-scanner/Overhead LR.jpg", full: "images/project-scanner/Overhead LR.jpg" },
-      { thumb: "images/project-scanner/Rim ShotLR.jpg", full: "images/project-scanner/Rim ShotLR.jpg" },
-      { thumb: "images/project-scanner/Scanner Info Sheet LR.jpg", full: "images/project-scanner/Scanner Info Sheet LR.jpg" },
     ]
   },
   { title: "Temple", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-temple/project-temple.jpg", full: "images/project-temple/project-temple.jpg",
