@@ -58,7 +58,7 @@ window.GALLERY = [
       { thumb: "images/project-atrium/GsketchLR.jpg", full: "images/project-atrium/GsketchLR.jpg", label: "3D Line Sketch" },
     ]
   },
-  { title: "Inaugura", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg", full: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg",
+  { title: "INAUGURA", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg", full: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg",
     heroLabel: "Final",
     series: [
       { thumb: "images/project-inaugura/Cutsheet LR.jpg", full: "images/project-inaugura/Cutsheet LR.jpg", label: "Architectural Callouts" },
