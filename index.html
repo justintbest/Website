@@ -425,6 +425,15 @@
     background: var(--bg-2); border: 1px solid var(--line); overflow: hidden;
   }
   .lb-series-img img { width: 100%; height: auto; display: block; }
+  .lb-img-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--fg-2);
+    text-align: center;
+    margin: 6px 0 24px;
+  }
 
   @media (max-width: 880px) {
     header { position: fixed; width: 100%; }
@@ -627,7 +636,7 @@
     <div class="lb-stage">
       <span id="lbPh">Drop image</span>
     </div>
-    <p id="lbHeroLabel" style="text-align:center;display:none;font-family:var(--mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--fg-2);margin:6px 0 20px;"></p>
+    <p id="lbHeroLabel" class="lb-img-label" style="display:none;margin-top:6px;"></p>
     <div class="lb-series" id="lbSeries"></div>
   </div>
 </div>
@@ -718,7 +727,8 @@
         series.appendChild(wrap);
         if (s.label) {
           const lbl = document.createElement('p');
-          lbl.style.cssText = 'text-align:center;font-family:var(--mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--fg-2);margin:8px 0 0;';
+          lbl.className = 'lb-img-label';
+          lbl.style.marginTop = '6px';
           lbl.textContent = s.label;
           series.appendChild(lbl);
         }
