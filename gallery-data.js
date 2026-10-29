@@ -57,8 +57,9 @@ window.GALLERY = [
     ]
   },
   { title: "PS Inaugura", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg", full: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg",
+    heroLabel: "Final",
     series: [
-      { thumb: "images/project-inaugura/Cutsheet LR.jpg", full: "images/project-inaugura/Cutsheet LR.jpg" },
+      { thumb: "images/project-inaugura/Cutsheet LR.jpg", full: "images/project-inaugura/Cutsheet LR.jpg", label: "Architectural Callouts" },
     ]
   },
   { title: "View from the Moorish Villa", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg", full: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg",
