@@ -87,7 +87,7 @@ window.GALLERY = [
       { thumb: "images/project-scanner/Rim ShotLR.jpg", full: "images/project-scanner/Rim ShotLR.jpg", label: "Final - View 3" },
     ]
   },
-  { title: "Temple", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-temple/project-temple.jpg", full: "images/project-temple/project-temple.jpg",
+  { title: "Temple", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", software: "Blender, ZBrush &amp; Photoshop", thumb: "images/project-temple/project-temple.jpg", full: "images/project-temple/project-temple.jpg",
     series: [
       { thumb: "images/project-temple/Temple Post Kit Low Res.png", full: "images/project-temple/Temple Post Kit Low Res.png" },
     ]
