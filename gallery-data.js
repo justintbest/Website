@@ -88,6 +88,7 @@ window.GALLERY = [
   },
   { title: "Dual Wielded", project: "Futurist", category: "Character", cat: "char", year: "2026", thumb: "images/project-dualwielded/Dual Weild4.png", full: "images/project-dualwielded/Dual Weild4.png", imgPos: "center -40px" },
   { title: "Atrium", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-atrium/Star Citizen LobbyOutLR.jpg", full: "images/project-atrium/Star Citizen LobbyOutLR.jpg",
+    desc: '<p class="lb-desc-credit" style="text-align:center;">Final</p>',
     series: [
       { thumb: "images/project-atrium/GsketchLR.jpg", full: "images/project-atrium/GsketchLR.jpg" },
     ]
