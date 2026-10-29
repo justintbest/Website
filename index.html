@@ -419,10 +419,11 @@
     padding: 10px 16px; cursor: pointer; transition: all 0.2s;
   }
   .lb-close:hover { color: var(--fg); border-color: var(--accent); }
-  .lb-series { margin-top: 8px; display: flex; flex-direction: column; gap: 8px; }
+  .lb-series { margin-top: 0; display: flex; flex-direction: column; gap: 0; }
   .lb-series-img {
     width: 100%;
     background: var(--bg-2); border: 1px solid var(--line); overflow: hidden;
+    margin-bottom: 24px;
   }
   .lb-series-img img { width: 100%; height: auto; display: block; }
   .lb-img-label {
@@ -724,11 +725,11 @@
         const wrap = document.createElement('div');
         wrap.className = 'lb-series-img';
         if (s.full || s.thumb) wrap.innerHTML = `<img src="${s.full || s.thumb}" alt="" loading="lazy">`;
+        if (s.label) wrap.style.marginBottom = '0';
         series.appendChild(wrap);
         if (s.label) {
           const lbl = document.createElement('p');
           lbl.className = 'lb-img-label';
-          lbl.style.marginTop = '6px';
           lbl.textContent = s.label;
           series.appendChild(lbl);
         }
