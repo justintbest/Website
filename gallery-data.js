@@ -79,8 +79,8 @@ window.GALLERY = [
   { title: "Scanner", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-scanner/Half Aerial LR.jpg", full: "images/project-scanner/Half Aerial LR.jpg",
     series: [
       { thumb: "images/project-scanner/Overhead LR.jpg", full: "images/project-scanner/Overhead LR.jpg" },
-      { thumb: "images/project-scanner/Scanner Info Sheet LR.jpg", full: "images/project-scanner/Scanner Info Sheet LR.jpg", label: "Hero Asset Callout" },
       { thumb: "images/project-scanner/Rim ShotLR.jpg", full: "images/project-scanner/Rim ShotLR.jpg" },
+      { thumb: "images/project-scanner/Scanner Info Sheet LR.jpg", full: "images/project-scanner/Scanner Info Sheet LR.jpg", label: "Hero Asset Callout" },
     ]
   },
   { title: "Temple", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-temple/project-temple.jpg", full: "images/project-temple/project-temple.jpg",
