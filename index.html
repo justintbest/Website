@@ -666,7 +666,7 @@
         <div class="scrim"></div>
         <div class="info">
           <div class="t">${p.t}</div>
-          <div class="m"><span>${p.med}</span><span>${p.software || 'Blender &amp; Photoshop'}</span></div>
+          <div class="m"><span>${p.med} · ${p.software || 'Blender &amp; Photoshop'}</span></div>
         </div>`;
       card.addEventListener('click', (e) => {
         if (window.innerWidth <= 540 && !card.classList.contains('tapped')) return;
