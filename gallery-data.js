@@ -52,26 +52,26 @@ window.HERO_SLIDES = [
                 If you omit "full", the thumb image is used.
 ---------------------------------------------------------------------------- */
 window.GALLERY = [
-  { title: "Atrium", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-atrium/Star Citizen LobbyOutLR.jpg", full: "images/project-atrium/Star Citizen LobbyOutLR.jpg",
+  { title: "Atrium", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-atrium/Star Citizen LobbyOutLR.jpg", full: "images/project-atrium/Star Citizen LobbyOutLR.jpg",
     heroLabel: "Final",
     series: [
       { thumb: "images/project-atrium/GsketchLR.jpg", full: "images/project-atrium/GsketchLR.jpg", label: "3D Line Sketch" },
     ]
   },
-  { title: "PS Inaugura", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg", full: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg",
+  { title: "PS Inaugura", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg", full: "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg",
     heroLabel: "Final",
     series: [
       { thumb: "images/project-inaugura/Cutsheet LR.jpg", full: "images/project-inaugura/Cutsheet LR.jpg", label: "Architectural Callouts" },
     ]
   },
-  { title: "View from the Moorish Villa", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg", full: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg",
+  { title: "View from the Moorish Villa", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg", full: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg",
     heroLabel: "Final",
     series: [
       { thumb: "images/project-moorish-villa/Alh Assets LR.jpg", full: "images/project-moorish-villa/Alh Assets LR.jpg", label: "Architectural Callouts" },
       { thumb: "images/project-moorish-villa/Sneak Peak BW LR.jpg", full: "images/project-moorish-villa/Sneak Peak BW LR.jpg", label: "Architecture Closeup" },
     ]
   },
-  { title: "Mesozoic", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-mesozoic/mesozoic18CD4 LR.jpg", full: "images/project-mesozoic/mesozoic18CD4 LR.jpg",
+  { title: "Mesozoic", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-mesozoic/mesozoic18CD4 LR.jpg", full: "images/project-mesozoic/mesozoic18CD4 LR.jpg",
     heroLabel: "Final",
     series: [
       { thumb: "images/project-mesozoic/CutsheetPS5 LR.jpg", full: "images/project-mesozoic/CutsheetPS5 LR.jpg", label: "Thumbnail Sketches" },
@@ -79,7 +79,7 @@ window.GALLERY = [
       { thumb: "images/project-mesozoic/CutsheetPS3 LR.jpg", full: "images/project-mesozoic/CutsheetPS3 LR.jpg", label: "Troodon Design" },
     ]
   },
-  { title: "Scanner", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-scanner/Half Aerial LR.jpg", full: "images/project-scanner/Half Aerial LR.jpg",
+  { title: "Scanner", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-scanner/Half Aerial LR.jpg", full: "images/project-scanner/Half Aerial LR.jpg",
     heroLabel: "Final",
     series: [
       { thumb: "images/project-scanner/Scanner Info Sheet LR.jpg", full: "images/project-scanner/Scanner Info Sheet LR.jpg", label: "Hero Asset Cutsheet" },
@@ -87,19 +87,19 @@ window.GALLERY = [
       { thumb: "images/project-scanner/Rim ShotLR.jpg", full: "images/project-scanner/Rim ShotLR.jpg", label: "Final - View 3" },
     ]
   },
-  { title: "Temple", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-temple/project-temple.jpg", full: "images/project-temple/project-temple.jpg",
+  { title: "Temple", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-temple/project-temple.jpg", full: "images/project-temple/project-temple.jpg",
     series: [
       { thumb: "images/project-temple/Temple Post Kit Low Res.png", full: "images/project-temple/Temple Post Kit Low Res.png" },
     ]
   },
-  { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg",
+  { title: "Paris Reimagined", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg",
     series: [
       { thumb: "images/project-paris-reimagined/Prop Design.jpg", full: "images/project-paris-reimagined/Prop Design.jpg" },
       { thumb: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png", full: "images/project-paris-reimagined/Paris Reimagined - PROP DESIGN.png" },
       { thumb: "images/project-paris-reimagined/Studio Lighting Setup.jpg", full: "images/project-paris-reimagined/Studio Lighting Setup.jpg" },
     ]
   },
-  { title: "Archives", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-archives/Archives Final LR.jpg", full: "images/project-archives/Archives Final LR.jpg",
+  { title: "Archives", project: "Futurist", category: "Environment Concept Art", cat: "env", year: "2026", thumb: "images/project-archives/Archives Final LR.jpg", full: "images/project-archives/Archives Final LR.jpg",
     heroLabel: "Final",
     series: [
       { thumb: "images/project-archives/Archives Cutsheet LR.jpg?v=3", full: "images/project-archives/Archives Cutsheet LR.jpg?v=3", label: "Archival System Design Callouts" },
@@ -112,15 +112,15 @@ window.GALLERY = [
   { title: "Sketch 4", project: "Futurist", category: "Sketch", cat: "sketch", year: "2026", thumb: "images/project-sketches/Untitled_Artwork 76 LR.jpg", full: "images/project-sketches/Untitled_Artwork 76 LR.jpg" },
   { title: "Sketch 5", project: "Futurist", category: "Sketch", cat: "sketch", year: "2026", thumb: "images/project-sketches/Untitled_Artworkple - Copy LR.jpg", full: "images/project-sketches/Untitled_Artworkple - Copy LR.jpg" },
   { title: "Sketch 6", project: "Futurist", category: "Sketch", cat: "sketch", year: "2026", thumb: "images/project-sketches/Untitled_Artwork_(81)uyut LR.jpg", full: "images/project-sketches/Untitled_Artwork_(81)uyut LR.jpg" },
-  { title: "Drowned Cathedral", project: "Project Tidewall", category: "Environment", cat: "env", year: "2025" },
+  { title: "Drowned Cathedral", project: "Project Tidewall", category: "Environment Concept Art", cat: "env", year: "2025" },
   { title: "Hauler Class-VII",  project: "Orbital",          category: "Vehicle",     cat: "veh", year: "2025" },
   { title: "Ash Pilgrim",       project: "Emberfall",        category: "Character",   cat: "char", year: "2024" },
   { title: "Skybridge — Dawn",  project: "Project Tidewall", category: "Keyframe",    cat: "key", year: "2025" },
-  { title: "Foundry District",  project: "Orbital",          category: "Environment", cat: "env", year: "2024" },
+  { title: "Foundry District",  project: "Orbital",          category: "Environment Concept Art", cat: "env", year: "2024" },
   { title: "Scout Drone Mk.II", project: "Emberfall",        category: "Vehicle",     cat: "veh", year: "2024" },
-  { title: "Glass Wastes",      project: "Untitled Feature", category: "Environment", cat: "env", year: "2026" },
+  { title: "Glass Wastes",      project: "Untitled Feature", category: "Environment Concept Art", cat: "env", year: "2026" },
   { title: "The Cartographer",  project: "Emberfall",        category: "Character",   cat: "char", year: "2025" },
   { title: "Last Light Convoy", project: "Untitled Feature", category: "Keyframe",    cat: "key", year: "2026" },
-  { title: "Reactor Spine",     project: "Orbital",          category: "Environment", cat: "env", year: "2024" },
+  { title: "Reactor Spine",     project: "Orbital",          category: "Environment Concept Art", cat: "env", year: "2024" },
   { title: "Tidewall Breach",   project: "Project Tidewall", category: "Keyframe",    cat: "key", year: "2025" },
 ];
