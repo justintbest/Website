@@ -657,7 +657,7 @@
 
   function render(filter) {
     grid.innerHTML = '';
-    visible = PIECES.filter(p => (filter === 'all' || p.cat === filter) && p.img);
+    visible = PIECES.filter(p => ((filter === 'all' ? p.cat !== 'sketch' : p.cat === filter)) && p.img);
     visible.forEach((p, i) => {
       const card = document.createElement('div');
       card.className = 'card' + (p.size ? ' ' + p.size : '');
