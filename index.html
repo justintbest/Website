@@ -647,7 +647,7 @@
 <script>
   // Build the render model from the editable content file (gallery-data.js).
   const PIECES = (window.GALLERY || []).map(g => ({
-    t: g.title, proj: g.project, med: g.category, year: g.year, cat: g.cat,
+    t: g.title, proj: g.project, med: g.category, year: g.year, cat: g.cat, software: g.software,
     img: g.thumb || g.full || '', full: g.full || g.thumb || '',
     series: g.series || [], imgPos: g.imgPos || 'center', heroLabel: g.heroLabel || ''
   }));
@@ -666,7 +666,7 @@
         <div class="scrim"></div>
         <div class="info">
           <div class="t">${p.t}</div>
-          <div class="m"><span>${p.proj}</span></div>
+          <div class="m"><span>${p.med}</span><span>${p.software || 'Blender &amp; Photoshop'}</span></div>
         </div>`;
       card.addEventListener('click', (e) => {
         if (window.innerWidth <= 540 && !card.classList.contains('tapped')) return;
