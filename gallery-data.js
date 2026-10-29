@@ -70,10 +70,11 @@ window.GALLERY = [
     ]
   },
   { title: "Mesozoic", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-mesozoic/mesozoic18CD4 LR.jpg", full: "images/project-mesozoic/mesozoic18CD4 LR.jpg",
+    heroLabel: "Final",
     series: [
-      { thumb: "images/project-mesozoic/CutsheetPS5 LR.jpg", full: "images/project-mesozoic/CutsheetPS5 LR.jpg" },
-      { thumb: "images/project-mesozoic/CutsheetPS6.jpg", full: "images/project-mesozoic/CutsheetPS6.jpg" },
-      { thumb: "images/project-mesozoic/CutsheetPS3 LR.jpg", full: "images/project-mesozoic/CutsheetPS3 LR.jpg" },
+      { thumb: "images/project-mesozoic/CutsheetPS5 LR.jpg", full: "images/project-mesozoic/CutsheetPS5 LR.jpg", label: "Thumbnail Sketches" },
+      { thumb: "images/project-mesozoic/CutsheetPS6.jpg", full: "images/project-mesozoic/CutsheetPS6.jpg", label: "Rock Formation Sketches" },
+      { thumb: "images/project-mesozoic/CutsheetPS3 LR.jpg", full: "images/project-mesozoic/CutsheetPS3 LR.jpg", label: "Troodon Design" },
     ]
   },
   { title: "Scanner", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-scanner/Half Aerial LR.jpg", full: "images/project-scanner/Half Aerial LR.jpg",
