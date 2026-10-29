@@ -98,8 +98,9 @@ window.GALLERY = [
     ]
   },
   { title: "Archives", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-archives/Archives Final LR.jpg", full: "images/project-archives/Archives Final LR.jpg",
+    heroLabel: "Final",
     series: [
-      { thumb: "images/project-archives/Archives Cutsheet LR.jpg?v=3", full: "images/project-archives/Archives Cutsheet LR.jpg?v=3" },
+      { thumb: "images/project-archives/Archives Cutsheet LR.jpg?v=3", full: "images/project-archives/Archives Cutsheet LR.jpg?v=3", label: "Archival System Design Callouts" },
     ]
   },
   { title: "Dual Wielded", project: "Futurist", category: "Character", cat: "sketch", year: "2026", thumb: "images/project-dualwielded/Dual Weild4.png", full: "images/project-dualwielded/Dual Weild4.png", imgPos: "center -40px" },
