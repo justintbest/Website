@@ -627,6 +627,7 @@
     <div class="lb-stage">
       <span id="lbPh">Drop image</span>
     </div>
+    <p id="lbHeroLabel" style="text-align:center;display:none;font-family:var(--mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--fg-2);margin:8px 0 0;"></p>
     <div class="lb-series" id="lbSeries"></div>
   </div>
 </div>
@@ -637,7 +638,7 @@
   const PIECES = (window.GALLERY || []).map(g => ({
     t: g.title, proj: g.project, med: g.category, year: g.year, cat: g.cat,
     img: g.thumb || g.full || '', full: g.full || g.thumb || '',
-    series: g.series || [], imgPos: g.imgPos || 'center'
+    series: g.series || [], imgPos: g.imgPos || 'center', heroLabel: g.heroLabel || ''
   }));
 
   const grid = document.getElementById('grid');
@@ -702,6 +703,10 @@
       if (lbImg) lbImg.style.display = 'none';
       ph.style.display = 'none';
     }
+    // Hero label (below main image)
+    const heroLabel = document.getElementById('lbHeroLabel');
+    heroLabel.textContent = p.heroLabel || '';
+    heroLabel.style.display = p.heroLabel ? '' : 'none';
     // Rebuild vertical series stack
     const series = document.getElementById('lbSeries');
     series.innerHTML = '';
@@ -713,8 +718,7 @@
         series.appendChild(wrap);
         if (s.label) {
           const lbl = document.createElement('p');
-          lbl.className = 'lb-desc-credit';
-          lbl.style.textAlign = 'center';
+          lbl.style.cssText = 'text-align:center;font-family:var(--mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--fg-2);margin:8px 0 0;';
           lbl.textContent = s.label;
           series.appendChild(lbl);
         }

@@ -51,7 +51,7 @@ window.HERO_SLIDES = [
 ---------------------------------------------------------------------------- */
 window.GALLERY = [
   { title: "Atrium", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-atrium/Star Citizen LobbyOutLR.jpg", full: "images/project-atrium/Star Citizen LobbyOutLR.jpg",
-    desc: '<p class="lb-desc-credit" style="text-align:center;">Final</p>',
+    heroLabel: "Final",
     series: [
       { thumb: "images/project-atrium/GsketchLR.jpg", full: "images/project-atrium/GsketchLR.jpg", label: "3D Line Sketch" },
     ]
