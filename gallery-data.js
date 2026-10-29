@@ -87,6 +87,11 @@ window.GALLERY = [
     ]
   },
   { title: "Dual Wielded", project: "Futurist", category: "Character", cat: "char", year: "2026", thumb: "images/project-dualwielded/Dual Weild4.png", full: "images/project-dualwielded/Dual Weild4.png", imgPos: "center -40px" },
+  { title: "Atrium", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-atrium/atrium-final.jpg", full: "images/project-atrium/atrium-final.jpg",
+    series: [
+      { thumb: "images/project-atrium/atrium-sketch.jpg", full: "images/project-atrium/atrium-sketch.jpg" },
+    ]
+  },
   { title: "Drowned Cathedral", project: "Project Tidewall", category: "Environment", cat: "env", year: "2025" },
   { title: "Hauler Class-VII",  project: "Orbital",          category: "Vehicle",     cat: "veh", year: "2025" },
   { title: "Ash Pilgrim",       project: "Emberfall",        category: "Character",   cat: "char", year: "2024" },
