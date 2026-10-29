@@ -53,8 +53,8 @@ window.GALLERY = [
   { title: "View from the Moorish Villa", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg", full: "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg",
     heroLabel: "Final",
     series: [
-      { thumb: "images/project-moorish-villa/Alh Assets LR.jpg", full: "images/project-moorish-villa/Alh Assets LR.jpg" },
-      { thumb: "images/project-moorish-villa/Sneak Peak BW LR.jpg", full: "images/project-moorish-villa/Sneak Peak BW LR.jpg" },
+      { thumb: "images/project-moorish-villa/Alh Assets LR.jpg", full: "images/project-moorish-villa/Alh Assets LR.jpg", label: "Architectural Callouts" },
+      { thumb: "images/project-moorish-villa/Sneak Peak BW LR.jpg", full: "images/project-moorish-villa/Sneak Peak BW LR.jpg", label: "Architecture Closeup" },
     ]
   },
   { title: "Atrium", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-atrium/Star Citizen LobbyOutLR.jpg", full: "images/project-atrium/Star Citizen LobbyOutLR.jpg",
