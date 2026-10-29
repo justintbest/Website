@@ -29,10 +29,10 @@
    Leave the list empty [] to hide the slideshow.
 ---------------------------------------------------------------------------- */
 window.HERO_SLIDES = [
-  "images/project-atrium/Star Citizen LobbyOutLR.jpg",
-  "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg",
   "images/project-inaugura/Futurist_PS INAUGURA LR2.jpg",
   "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg",
+  "images/project-atrium/Star Citizen LobbyOutLR.jpg",
+  "images/project-moorish-villa/Project - Alhambra 12 CR LR.jpg",
   "images/project-mesozoic/mesozoic18CD4 LR.jpg",
   "images/project-archives/Archives Final LR.jpg",
   { src: "images/project-temple/project-temple.jpg", imgPos: "center -300px" },
