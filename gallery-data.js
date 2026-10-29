@@ -68,11 +68,23 @@ window.GALLERY = [
       { thumb: "images/project-moorish-villa/Sneak Peak BW LR.jpg", full: "images/project-moorish-villa/Sneak Peak BW LR.jpg", label: "Architecture Closeup" },
     ]
   },
+  { title: "Mesozoic", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-mesozoic/mesozoic18CD4 LR.jpg", full: "images/project-mesozoic/mesozoic18CD4 LR.jpg",
+    series: [
+      { thumb: "images/project-mesozoic/CutsheetPS5 LR.jpg", full: "images/project-mesozoic/CutsheetPS5 LR.jpg" },
+      { thumb: "images/project-mesozoic/CutsheetPS6.jpg", full: "images/project-mesozoic/CutsheetPS6.jpg" },
+      { thumb: "images/project-mesozoic/CutsheetPS3 LR.jpg", full: "images/project-mesozoic/CutsheetPS3 LR.jpg" },
+    ]
+  },
   { title: "Scanner", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-scanner/Half Aerial LR.jpg", full: "images/project-scanner/Half Aerial LR.jpg",
     series: [
       { thumb: "images/project-scanner/Overhead LR.jpg", full: "images/project-scanner/Overhead LR.jpg" },
       { thumb: "images/project-scanner/Scanner Info Sheet LR.jpg", full: "images/project-scanner/Scanner Info Sheet LR.jpg", label: "Hero Asset Callout" },
       { thumb: "images/project-scanner/Rim ShotLR.jpg", full: "images/project-scanner/Rim ShotLR.jpg" },
+    ]
+  },
+  { title: "Temple", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-temple/project-temple.jpg", full: "images/project-temple/project-temple.jpg",
+    series: [
+      { thumb: "images/project-temple/Temple Post Kit Low Res.png", full: "images/project-temple/Temple Post Kit Low Res.png" },
     ]
   },
   { title: "Paris Reimagined", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg", full: "images/project-paris-reimagined/Paris Reimagined - Environment Design Graded 30 LR3.jpg",
@@ -82,21 +94,9 @@ window.GALLERY = [
       { thumb: "images/project-paris-reimagined/Studio Lighting Setup.jpg", full: "images/project-paris-reimagined/Studio Lighting Setup.jpg" },
     ]
   },
-  { title: "Mesozoic", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-mesozoic/mesozoic18CD4 LR.jpg", full: "images/project-mesozoic/mesozoic18CD4 LR.jpg",
-    series: [
-      { thumb: "images/project-mesozoic/CutsheetPS5 LR.jpg", full: "images/project-mesozoic/CutsheetPS5 LR.jpg" },
-      { thumb: "images/project-mesozoic/CutsheetPS6.jpg", full: "images/project-mesozoic/CutsheetPS6.jpg" },
-      { thumb: "images/project-mesozoic/CutsheetPS3 LR.jpg", full: "images/project-mesozoic/CutsheetPS3 LR.jpg" },
-    ]
-  },
   { title: "Archives", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-archives/Archives Final LR.jpg", full: "images/project-archives/Archives Final LR.jpg",
     series: [
       { thumb: "images/project-archives/Archives Cutsheet LR.jpg?v=3", full: "images/project-archives/Archives Cutsheet LR.jpg?v=3" },
-    ]
-  },
-  { title: "Temple", project: "Futurist", category: "Environment", cat: "env", year: "2026", thumb: "images/project-temple/project-temple.jpg", full: "images/project-temple/project-temple.jpg",
-    series: [
-      { thumb: "images/project-temple/Temple Post Kit Low Res.png", full: "images/project-temple/Temple Post Kit Low Res.png" },
     ]
   },
   { title: "Dual Wielded", project: "Futurist", category: "Character", cat: "sketch", year: "2026", thumb: "images/project-dualwielded/Dual Weild4.png", full: "images/project-dualwielded/Dual Weild4.png", imgPos: "center -40px" },
